@@ -1,0 +1,666 @@
+[
+  {
+    "id": "SET-PART7-001",
+    "title": "Sparky Paints Service & Order",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      "Document 1: Sparky Paints, Inc. makes it easy to select the right colors for your home. Our color samples are three times larger than typical samples and come with self-adhesive backing. We'll ship your chosen colors to arrive at your home within 3-5 business days, or within 2 business days for an additional expedited shipping fee.",
+      "Document 2: Order Summary #3397. Customer: Arun Phan. Items: Caspian Blue (sample - $0.00), Deep Sea Blue (sample - $0.00), Stormy Blue (sample - $0.00), Misty Gray SP 944 (2 Gallons - $50.00). Expedited shipping: $18.99. Total: $72.99.",
+      "Document 3: Email From Arun Phan (March 12). Subject: Order #3397. Thanks for sending my order—it arrived this morning. Unfortunately, I received SP 945 instead of SP 944. They appear right next to each other on your Web site. Could you send me the correct paint, and additional samples close in color to SP 722?"
+    ],
+    "questions": [
+      {
+        "id": "P7-001-1",
+        "q": "What is mentioned as a benefit of Sparky Paints' samples?",
+        "options": ["They are provided in 15 different shades.", "They can be stuck directly onto walls.", "They are smaller than standard samples.", "They are delivered within 24 hours."],
+        "answer": 1,
+        "explanation": "文書1にself-adhesive backing（粘着式の裏地）とあるため(B)が正解。"
+      },
+      {
+        "id": "P7-001-2",
+        "q": "Which color did Mr. Phan NOT receive correctly?",
+        "options": ["Caspian Blue", "Deep Sea Blue", "Stormy Blue", "Misty Gray"],
+        "answer": 3,
+        "explanation": "文書3でSP 944(Misty Gray)の代わりにSP 945を受け取ったと述べています。"
+      },
+      {
+        "id": "P7-001-3",
+        "q": "According to the documents, when was the order most likely placed?",
+        "options": ["March 5", "March 8", "March 10", "March 12"],
+        "answer": 2,
+        "explanation": "文書2でExpedited shippingを選択しており、文書1でそれは2営業日(2 business days)で届くとあります。文書3で3月12日の朝に届いたと言っているので、その2営業日前の3月10日(B)が正解です。"
+      },
+      {
+        "id": "P7-001-4",
+        "q": "What kind of samples does Mr. Phan want to receive now?",
+        "options": ["Colors similar to Caspian Blue", "Colors similar to Deep Sea Blue", "Colors similar to Stormy Blue", "Colors similar to Ocean Waves"],
+        "answer": 2,
+        "explanation": "文書3の末尾でSP 722に似た色のサンプルを求めています。文書2よりSP 722はStormy Blueです。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-002",
+    "title": "Corporate Workshop & Feedback",
+    "category": "Part 7",
+    "target_time_sec": 360,
+    "passages": [
+      "Document 1: Internal Memo. To: All Staff. From: HR Department. Date: May 10. Subject: Professional Development Workshop. We are pleased to announce a workshop on 'Digital Productivity' on May 25. The session will run from 9:00 AM to 12:00 PM in Conference Room B. Space is limited to 20 participants. Please register via the employee portal by May 18. A complimentary lunch will be provided afterward in the cafeteria.",
+      "Document 2: Workshop Registration List (Excerpt). Date: May 25. Instructor: Sarah Jenkins. 1. Mark Thompson (Sales) - Vegetarian. 2. Linda Garcia (Marketing) - No preference. 3. Kenji Sato (IT) - Nut allergy. 4. Sarah Miller (Accounting) - No preference. *Total registered: 18.",
+      "Document 3: Email From Kenji Sato (May 26). Subject: Workshop follow-up. Dear HR, I really enjoyed Sarah Jenkins' session yesterday. The tips on shortcut keys were especially helpful. However, I noticed that the boxed lunch provided didn't have a label for ingredients. Since I have a specific dietary restriction, I had to skip the meal. Could you ensure labels are included for the next session on June 15?"
+    ],
+    "questions": [
+      {
+        "id": "P7-002-1",
+        "q": "By what date should employees sign up for the workshop?",
+        "options": ["May 10", "May 18", "May 25", "June 15"],
+        "answer": 1,
+        "explanation": "文書1にregister via the employee portal by May 18とあるため(B)が正解。"
+      },
+      {
+        "id": "P7-002-2",
+        "q": "What is indicated about the workshop on May 25?",
+        "options": ["It was held in the cafeteria.", "It was attended by exactly 20 people.", "It focused on digital efficiency.", "It was led by an HR manager."],
+        "answer": 2,
+        "explanation": "文書1に'Digital Productivity'とあり、文書3でその内容（ショートカットキーなど）を褒めているため(C)が正解。"
+      },
+      {
+        "id": "P7-002-3",
+        "q": "Why did Mr. Sato NOT eat the lunch?",
+        "options": ["He was too busy with IT tasks.", "He did not like the vegetarian options.", "He forgot to register his dietary needs.", "He was concerned about potential allergens."],
+        "answer": 3,
+        "explanation": "文書3で、成分表示ラベルがなかったため、アレルギー（nut allergy）を懸念して食事を抜いた（skip the meal）と述べています。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-003",
+    "title": "Business Relocation Notice",
+    "category": "Part 7",
+    "target_time_sec": 420,
+    "passages": [
+      "Document 1: Letter to Clients. Dear Valued Customer, We are excited to announce that 'Vertex Consulting' is moving to a new office! Effective July 1, our primary operations will shift to the Grand Plaza Building, Suite 405. Our phone numbers and email addresses remain unchanged. This larger space will allow us to expand our team and better serve your needs.",
+      "Document 2: Office Furniture Order #V-901. Date: June 12. Ship to: Vertex Consulting, 888 Oak Street (Current). Billing Address: 1200 Grand Plaza, Suite 405 (New). Items: 10 Ergonomic Chairs ($2,500), 5 Modular Desks ($1,500). Delivery Date requested: June 28. Special Instructions: Please deliver to the current location, as we will handle the move ourselves during the last weekend of June.",
+      "Document 3: Service Request from Vertex Consulting (July 3). To: City IT Solutions. Hello, we recently moved to the Grand Plaza Building. Our internet connection in Suite 405 is unstable. Also, we need assistance setting up the network for the 10 new workstations we just added. We need this resolved before our grand reopening on July 7."
+    ],
+    "questions": [
+      {
+        "id": "P7-003-1",
+        "q": "What is the main reason for Vertex Consulting's move?",
+        "options": ["To reduce monthly rent", "To be closer to their clients", "To accommodate more staff", "To update their phone systems"],
+        "answer": 2,
+        "explanation": "文書1にexpand our team（チームの拡大）とあるため(C)が正解。"
+      },
+      {
+        "id": "P7-003-2",
+        "q": "Where were the new chairs delivered?",
+        "options": ["888 Oak Street", "Grand Plaza, Suite 405", "City IT Solutions", "The cafeteria"],
+        "answer": 0,
+        "explanation": "文書2のShip to（配送先）が888 Oak Street（現在のオフィス）になっており、指示欄にもcurrent locationに届けるよう記載があるため(A)が正解。"
+      },
+      {
+        "id": "P7-003-3",
+        "q": "When does the company plan to officially reopen at the new location?",
+        "options": ["June 12", "June 28", "July 1", "July 7"],
+        "answer": 3,
+        "explanation": "文書3の末尾にgrand reopening on July 7とあるため(D)が正解。"
+      },
+      {
+        "id": "P7-003-4",
+        "q": "What is NOT mentioned as a problem in the service request?",
+        "options": ["Unstable internet connection", "Missing office chairs", "Network setup for new desks", "Urgent deadline for repairs"],
+        "answer": 1,
+        "explanation": "インターネットの不安定さ、ネットワーク設定、再開までの期限については文書3で言及されていますが、椅子の紛失については言及されていないため(B)が正解。"
+      }
+    ]
+  },
+
+  {
+    "id": "SET-PART7-004",
+    "title": "Logistics & Product Damage Claim",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      "Document 1: Global Express Shipping Policy. Standard Delivery: 5-7 days ($5.00). Priority Shipping: 2-3 days ($15.00). Overnight: Next business day ($30.00). *Note: All fragile items are insured up to $200 at no extra cost. For claims exceeding this amount, additional insurance must be purchased at the time of checkout.",
+      "Document 2: Order Confirmation. Order Date: October 12. Customer: Elena Rossi. Item: Vintage Glass Vase ($250.00). Shipping: Priority ($15.00). Total: $265.00. Tracking Status: Delivered - October 15.",
+      "Document 3: Email From Elena Rossi (October 16). To: Customer Support. Subject: Damaged Item - Order #ER992. I received my order yesterday as scheduled. However, when I opened the box, the vase was cracked. I remember paying for priority shipping to ensure quick delivery, but I am concerned about the refund. Since the item cost $250, will I be fully reimbursed? Please let me know the steps to file a claim."
+    ],
+    "questions": [
+      {
+        "id": "P7-004-1",
+        "q": "How long does Priority Shipping typically take?",
+        "options": ["Next business day", "2-3 days", "5-7 days", "10-12 days"],
+        "answer": 1,
+        "explanation": "文書1のPriority Shippingの項目に2-3 daysと記載されています。"
+      },
+      {
+        "id": "P7-004-2",
+        "q": "What is the problem reported by Ms. Rossi?",
+        "options": ["The delivery was late.", "The item was missing from the box.", "The item was broken upon arrival.", "The shipping fee was too high."],
+        "answer": 2,
+        "explanation": "文書3でthe vase was cracked（花瓶にひびが入っていた）と報告しています。"
+      },
+      {
+        "id": "P7-004-3",
+        "q": "What is implied about Ms. Rossi's refund?",
+        "options": ["She will receive the full $250 automatically.", "She might not get the full amount because she didn't buy extra insurance.", "She will only be refunded for the shipping cost.", "She is not eligible for any insurance."],
+        "answer": 1,
+        "explanation": "文書1で、割れ物は追加料金なしで$200まで保険がかかるとありますが、$200を超える場合は追加保険が必要とあります。彼女の花瓶は$250で、追加保険を購入した記述がないため、全額は戻らない可能性があります。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-005",
+    "title": "Business Conference & Hotel Reservation",
+    "category": "Part 7",
+    "target_time_sec": 360,
+    "passages": [
+      "Document 1: Tech-Forward Conference Schedule. Date: November 5. Venue: Skyline Convention Center. 09:00 - Keynote Speech (Hall A). 11:00 - AI in Finance Workshop (Room 202). 13:00 - Networking Lunch (Roof Garden). 15:00 - Future of Robotics (Hall B).",
+      "Document 2: Grand Vista Hotel - Booking Confirmation. Guest: David Chen. Check-in: November 4. Check-out: November 6. Room Type: Deluxe King. Rate: $180/night. Total: $360.00. Special Request: Late check-in (11:00 PM). Note: Our shuttle bus leaves for the Skyline Convention Center every 30 minutes starting at 8:00 AM.",
+      "Document 3: Message to David Chen from Sarah Miller (Colleague). Hi David, I heard you're attending the Tech-Forward event. I'm interested in the 11:00 AM session but I'll be arriving at the venue around noon. Could you take some notes for me during that time? Also, let's try to catch the last presentation of the day together. I'll meet you in front of Hall B at 2:50 PM."
+    ],
+    "questions": [
+      {
+        "id": "P7-005-1",
+        "q": "Where will the Networking Lunch be held?",
+        "options": ["Hall A", "Room 202", "Roof Garden", "Grand Vista Hotel"],
+        "answer": 2,
+        "explanation": "文書1のスケジュール表の13:00の欄にRoof Gardenと記載されています。"
+      },
+      {
+        "id": "P7-005-2",
+        "q": "How many nights is Mr. Chen staying at the hotel?",
+        "options": ["One night", "Two nights", "Three nights", "Four nights"],
+        "answer": 1,
+        "explanation": "文書2のチェックイン（11/4）とチェックアウト（11/6）から、2泊（$180×2=$360）であることがわかります。"
+      },
+      {
+        "id": "P7-005-3",
+        "q": "Which session does Sarah Miller want notes for?",
+        "options": ["Keynote Speech", "AI in Finance", "Networking Lunch", "Future of Robotics"],
+        "answer": 1,
+        "explanation": "文書3でSarahは「11:00 AMのセッションに興味があるが、会場に昼頃着く」と言っています。スケジュール（文書1）の11:00はAI in Financeです。"
+      },
+      {
+        "id": "P7-005-4",
+        "q": "What is NOT true about Mr. Chen's trip?",
+        "options": ["He plans to arrive at the hotel late at night.", "He has a meeting with Sarah Miller at 2:50 PM.", "He can take a shuttle bus to the convention center.", "He will be presenting at the Future of Robotics session."],
+        "answer": 3,
+        "explanation": "A, B, Cは文書2・3で言及されていますが、彼がプレゼン（発表）をするという記述はないため(D)が正解。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-006",
+    "title": "Restaurant Review & Customer Service",
+    "category": "Part 7",
+    "target_time_sec": 360,
+    "passages": [
+      "Document 1: Blue Ocean Bistro - Anniversary Promotion. Join us in celebrating our 5th year! From June 1 to June 7, all parties of 4 or more will receive a 20% discount on their total bill. Note: Reservations are highly recommended. Our outdoor seating area is now open for the summer season.",
+      "Document 2: Online Review by Kevin Lee (June 3). Rating: 3/5 stars. I visited Blue Ocean Bistro with three friends yesterday to take advantage of the anniversary deal. The food was excellent, especially the grilled salmon. However, we were seated inside near the kitchen despite requesting a table on the terrace. Also, the discount wasn't applied initially, and I had to point it out to the manager.",
+      "Document 3: Response from the Manager (June 4). Dear Mr. Lee, thank you for your feedback. I apologize for the seating issue; a sudden rain shower at 6:00 PM forced us to move all terrace guests indoors, causing some confusion. Regarding the discount, I have spoken to our staff to ensure they check party sizes more carefully. On your next visit, please show this message for a free dessert."
+    ],
+    "questions": [
+      {
+        "id": "P7-006-1",
+        "q": "What is required to receive the anniversary discount?",
+        "options": ["Visiting on a weekend", "Ordering the grilled salmon", "Having at least four people in a group", "Making a reservation online"],
+        "answer": 2,
+        "explanation": "文書1にparties of 4 or more（4人以上のグループ）に割引を適用するとあります。"
+      },
+      {
+        "id": "P7-006-2",
+        "q": "Why was Mr. Lee NOT seated on the terrace?",
+        "options": ["He did not make a reservation.", "The terrace was closed for the season.", "The weather conditions changed.", "The restaurant was too crowded."],
+        "answer": 2,
+        "explanation": "文書3でマネージャーがa sudden rain shower（突然の雨）のために屋内へ移動させたと説明しています。"
+      },
+      {
+        "id": "P7-006-3",
+        "q": "What does the manager offer Mr. Lee for his next visit?",
+        "options": ["A 20% discount", "A complimentary dessert", "Priority terrace seating", "A refund for the salmon"],
+        "answer": 1,
+        "explanation": "文書3の末尾にshow this message for a free dessert（無料のデザート）とあります。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-007",
+    "title": "IT Job Recruitment",
+    "category": "Part 7",
+    "target_time_sec": 420,
+    "passages": [
+      "Document 1: Job Opening: Cloud Systems Architect at Nexus Tech. Responsibilities: Design and maintain AWS-based infrastructure, optimize Python scripts for automation, and lead security audits. Requirements: Minimum 5 years of experience in cloud computing. Certification in AWS Solutions Architect is preferred.",
+      "Document 2: Email From Sophia Rossi (July 15). Subject: Application for Cloud Systems Architect. To: Hiring Team, Nexus Tech. I am writing to express my interest in the position. I have 6 years of experience in backend development using Python and have spent the last 3 years specializing in AWS migrations. While I do not currently hold the specific certification mentioned, I am scheduled to take the exam next month.",
+      "Document 3: Internal HR Note (July 18). Candidate: Sophia Rossi. Status: Initial Screen Passed. Note: Strong Python background. Although she lacks the AWS certificate, her 6 years of total experience meets our minimum requirement. Let's schedule a technical interview for the week of July 25. Ask her about her experience with 'security audits' during the talk."
+    ],
+    "questions": [
+      {
+        "id": "P7-007-1",
+        "q": "What is one task the Cloud Systems Architect will perform?",
+        "options": ["Designing office layouts", "Writing Python scripts", "Marketing AWS services", "Managing financial budgets"],
+        "answer": 1,
+        "explanation": "文書1のResponsibilitiesにoptimize Python scripts（Pythonスクリプトの最適化）が含まれています。"
+      },
+      {
+        "id": "P7-007-2",
+        "q": "What is true about Ms. Rossi's qualifications?",
+        "options": ["She has exactly 5 years of experience.", "She is already a certified AWS Architect.", "She has more than the minimum required experience.", "She lacks experience with Python."],
+        "answer": 2,
+        "explanation": "要件は5年（文書1）ですが、彼女は6年の経験がある（文書2）ため、最低要件を満たしています。"
+      },
+      {
+        "id": "P7-007-3",
+        "q": "When will the technical interview likely take place?",
+        "options": ["July 15", "July 18", "The last week of July", "Next month"],
+        "answer": 2,
+        "explanation": "文書3でthe week of July 25（7月25日の週）に面接を予定するとあります。"
+      },
+      {
+        "id": "P7-007-4",
+        "q": "What will the interviewers specifically ask Ms. Rossi about?",
+        "options": ["Her exam date", "Her migration projects", "Security audits", "Backend development"],
+        "answer": 2,
+        "explanation": "文書3の最後にAsk her about her experience with 'security audits'と指示があります。"
+      }
+    ]
+  },
+  {
+    "id": "SET-PART7-008",
+    "title": "Apartment Maintenance Notice",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      "Document 1: Notice to Residents of 'Greenwood Towers'. Please be advised that the main water supply will be shut off for essential maintenance on Thursday, August 12, from 10:00 AM to 2:00 PM. This affects all units in Building A. We apologize for the inconvenience.",
+      "Document 2: Email from James Miller (Unit 402A). Date: August 10. To: Property Management. I saw the notice about the water shut-off. I work from home and have several video calls scheduled this Thursday. Is there any way to access the community lounge in Building B during those hours? I need a quiet space with reliable internet and, ideally, access to a restroom.",
+      "Document 3: Reply from Management (August 11). Dear Mr. Miller, residents of Building A are welcome to use the Building B lounge during the maintenance period. Your key card will be updated to grant you access temporarily. Please note that the lounge's Wi-Fi password is 'Greenwood2026'."
+    ],
+    "questions": [
+      {
+        "id": "P7-008-1",
+        "q": "How long will the water be unavailable?",
+        "options": ["2 hours", "4 hours", "10 hours", "12 hours"],
+        "answer": 1,
+        "explanation": "10:00 AMから2:00 PM（14:00）までなので、4時間です。"
+      },
+      {
+        "id": "P7-008-2",
+        "q": "Why does Mr. Miller need the lounge?",
+        "options": ["He wants to use the gym.", "His unit is under construction.", "He needs to participate in online meetings.", "He is moving to Building B."],
+        "answer": 2,
+        "explanation": "文書2でI have several video calls scheduled（ビデオ会議がいくつか予定されている）と述べています。"
+      },
+      {
+        "id": "P7-008-3",
+        "q": "What will the management do for Mr. Miller?",
+        "options": ["Change the Wi-Fi password", "Reschedule the maintenance", "Enable his card for another building", "Provide a portable water tank"],
+        "answer": 2,
+        "explanation": "文書3でYour key card will be updated to grant you access（鍵カードを更新してアクセス権を付与する）とあります。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-SPARKY-001",
+    "title": "Sparky Paints Triple Passage (Set A)",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      {
+        "type": "text",
+        "content": "Sparky Paints, Inc.\nSparky Paints, Inc., makes it easy to select the right colors for your home. Browse through hundreds of colors on our Web site, www.sparkypaints.com. Select your top colors, and we'll send free samples right to your door. Our color samples are three times larger than typical samples found in home-improvement stores and come with self-adhesive backing, allowing you to adhere them to your walls so you can easily see how colors will coordinate in your home. When you're ready to begin painting, simply select your chosen colors online, and we'll ship the paint of your choice to arrive at your home within 3-5 business days, or within 2 business days for an additional expedited shipping fee.\n\n*Actual colors may differ slightly from what appears on your monitor. For this reason, we recommend ordering several samples in similar shades."
+      },
+      {
+        "type": "table",
+        "title": "Order Summary #3397 - Customer: Arun Phan",
+        "header": ["Item", "Size", "Quantity", "Price"],
+        "rows": [
+          ["Caspian Blue SP 237", "n/a", "1", "$0.00"],
+          ["Deep Sea Blue SP 298", "n/a", "1", "$0.00"],
+          ["Stormy Blue SP 722", "n/a", "1", "$0.00"],
+          ["Misty Gray SP 944", "Gallon", "2", "$50.00"]
+        ],
+        "footer": "Tax (8 percent): $4.00 | Expedited shipping: $18.99 | Total: $72.99"
+      },
+      {
+        "type": "text",
+        "content": "From: Arun Phan <arun.phan@tnet.com>\nTo: Customer Support <support@sparkypaints.com>\nDate: March 12\nSubject: Order #3397\n\nHello,\nThanks for sending my order #3397—it arrived this morning. Unfortunately, the paint was not the one I had asked for. I had selected color SP 944 but received SP 945 (Ocean Waves). They appear right next to each other on your Web site, so the two may have been confused at your end. Could you send me the correct paint, along with additional samples that are close in color to SP 722? That sample worked well in my house; the others looked too green on my walls.\n\nThank you,\nArun Phan"
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-sparky-1-1",
+        "q": "What is mentioned as a unique feature of Sparky Paints' samples?",
+        "options": ["They are provided in 100 different shades.", "They can be attached directly to walls.", "They are smaller than typical store samples.", "They are delivered within 24 hours."],
+        "answer": 1,
+        "explanation": "Document 1に'come with self-adhesive backing, allowing you to adhere them to your walls'（粘着式の裏地があり壁に貼れる）とあります。"
+      },
+      {
+        "id": "p7-sparky-1-2",
+        "q": "According to the documents, when was the order #3397 most likely placed?",
+        "options": ["March 5", "March 8", "March 10", "March 12"],
+        "answer": 2,
+        "explanation": "Document 3で3月12日の朝に届いたとあり、Document 2で'Expedited shipping'を選択しています。Document 1よりお急ぎ便は2営業日で届くため、12日の2日前である3月10日が正解です。"
+      },
+      {
+        "id": "p7-sparky-1-3",
+        "q": "What problem does Mr. Phan report in his email?",
+        "options": ["The total price was calculated incorrectly.", "The shipping fee was higher than expected.", "The wrong color of paint was delivered.", "The samples were too small for his project."],
+        "answer": 2,
+        "explanation": "Document 3で'I had selected color SP 944 but received SP 945'と述べており、違う色が届いたことを報告しています。"
+      },
+      {
+        "id": "p7-sparky-1-4",
+        "q": "Which color sample did Mr. Phan like?",
+        "options": ["Caspian Blue", "Deep Sea Blue", "Stormy Blue", "Ocean Waves"],
+        "answer": 2,
+        "explanation": "Document 3の末尾で'SP 722 worked well'とあり、Document 2の表でSP 722は'Stormy Blue'であることがわかります。"
+      }
+    ]
+  },  
+  {
+    "id": "SET-P7-009",
+    "title": "Quarterly Sales Meeting & Catering",
+    "category": "Part 7",
+    "target_time_sec": 420,
+    "passages": [
+      {
+        "type": "text",
+        "content": "MEMORANDUM\nTo: Department Heads\nFrom: Julia Vance, Administrative Director\nDate: September 5\nSubject: Quarterly Sales Meeting\n\nOur next quarterly meeting is scheduled for September 20. This time, we will be hosting it at the Lakeside Conference Center to accommodate our growing team. Please submit your finalized attendee lists by September 12. As usual, lunch will be provided. If any of your team members have specific dietary requirements, please indicate them on the signup sheet."
+      },
+      {
+        "type": "table",
+        "title": "Catering Options - Healthy Bites Catering",
+        "header": ["Package Name", "Description", "Price per Person", "Minimum Order"],
+        "rows": [
+          ["Basic Deli", "Assorted sandwiches and chips", "$12.00", "10 people"],
+          ["Executive", "Hot pasta, salad, and breadsticks", "$18.00", "15 people"],
+          ["Wellness", "Grilled chicken, quinoa, and fruit", "$22.00", "10 people"],
+          ["Premium Seafood", "Grilled salmon and roasted vegetables", "$28.00", "20 people"]
+        ],
+        "footer": "*Note: All packages include bottled water and coffee. 10% service charge added to orders over 25 people."
+      },
+      {
+        "type": "text",
+        "content": "From: Julia Vance <j.vance@corp.com>\nTo: Healthy Bites Catering <orders@healthybites.com>\nDate: September 13\nSubject: Order for Sep 20\n\nHello, I would like to place an order for the Sales Meeting on September 20. We have 30 people attending. We've decided to go with the 'Wellness' package this time. However, five of our attendees do not eat meat. Could you substitute the chicken with grilled tofu for those five meals? Please send me the final invoice including the service charge."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-009-1",
+        "q": "Why is the meeting being held at the Lakeside Conference Center?",
+        "options": ["It is closer to the headquarters.", "The current office is under renovation.", "To provide more space for a larger staff.", "It offers better catering services."],
+        "answer": 2,
+        "explanation": "文書1に'accommodate our growing team'（成長するチームに対応するため）とあるため(C)が正解。"
+      },
+      {
+        "id": "p7-009-2",
+        "q": "What is the base price per person for the meal Julia Vance ordered?",
+        "options": ["$12.00", "$18.00", "$22.00", "$28.00"],
+        "answer": 2,
+        "explanation": "文書3で'Wellness'パッケージを選択しており、文書2の表からその価格は$22.00だとわかります。"
+      },
+      {
+        "id": "p7-009-3",
+        "q": "How much of a service charge will be added to the order?",
+        "options": ["5 percent", "8 percent", "10 percent", "15 percent"],
+        "answer": 2,
+        "explanation": "文書3で30名（30 people）の注文をしており、文書2の脚注（footer）に'orders over 25 people'は10%のサービス料がかかるとあるため(C)が正解。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-010",
+    "title": "Product Catalog & Inventory Inquiry",
+    "category": "Part 7",
+    "target_time_sec": 360,
+    "passages": [
+      {
+        "type": "text",
+        "content": "TechGear Solutions - New Monitor Series\nTechGear Solutions is proud to announce the release of our 'Vision' series monitors. All monitors in this series come with a 3-year limited warranty and blue-light reduction technology. Orders placed through our business portal receive a 5% discount for bulk purchases of 5 units or more."
+      },
+      {
+        "type": "table",
+        "title": "Vision Series Model Specifications",
+        "header": ["Model Number", "Screen Size", "Resolution", "Price"],
+        "rows": [
+          ["V-24S", "24 inches", "1080p Full HD", "$150.00"],
+          ["V-27P", "27 inches", "4K Ultra HD", "$320.00"],
+          ["V-32U", "32 inches", "4K Ultra HD", "$450.00"],
+          ["V-34C", "34 inches (Curved)", "WQHD", "$550.00"]
+        ],
+        "footer": "Availability: All models in stock except V-32U (Backordered until Oct 15)."
+      },
+      {
+        "type": "text",
+        "content": "From: Sam Reed <s.reed@designcorp.com>\nTo: TechGear Sales <sales@techgear.com>\nDate: October 2\nSubject: Inquiry about Model V-32U\n\nHello, I am interested in purchasing six units of your 32-inch 4K monitor for our design team. I see on your website that they are currently on backorder. If I place the order today via your business portal, will the 5% discount still apply? Also, please confirm if the estimated shipping date of October 15 is still accurate."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-010-1",
+        "q": "What feature is included in all 'Vision' series monitors?",
+        "options": ["Built-in speakers", "Blue-light reduction", "A 5-year warranty", "Touch-screen capability"],
+        "answer": 1,
+        "explanation": "文書1に'blue-light reduction technology'が含まれると記載されています。"
+      },
+      {
+        "id": "p7-010-2",
+        "q": "Which model is Sam Reed interested in?",
+        "options": ["V-24S", "V-27P", "V-32U", "V-34C"],
+        "answer": 2,
+        "explanation": "文書3の件名および「32-inch 4K monitor」という記述から、表にあるV-32Uであることがわかります。"
+      },
+      {
+        "id": "p7-010-3",
+        "q": "How much would the total be for one unit after the discount Sam Reed expects?",
+        "options": ["$142.50", "$304.00", "$427.50", "$522.50"],
+        "answer": 2,
+        "explanation": "V-32Uの定価は$450（文書2）。6台購入（5台以上）なので5%割引（文書1）が適用されます。$450 × 0.95 = $427.50 となります。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-011",
+    "title": "Business Travel & Reimbursement",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      {
+        "type": "text",
+        "content": "Travel Policy Update: All employees traveling for business must use the corporate booking tool. For airfare, economy class is the standard. Meals are reimbursed up to $50 per day. Receipts must be submitted within 10 days of returning from the trip."
+      },
+      {
+        "type": "table",
+        "title": "Expense Report: Travel to Singapore (Nov 12-14)",
+        "header": ["Date", "Description", "Category", "Amount"],
+        "rows": [
+          ["Nov 12", "Flight to Singapore", "Transportation", "$650.00"],
+          ["Nov 12", "Dinner with Client", "Meals", "$45.00"],
+          ["Nov 13", "Taxi to Conference", "Transportation", "$20.00"],
+          ["Nov 13", "Full Day Meals", "Meals", "$62.00"]
+        ],
+        "footer": "Employee: Linda Smith | Department: Marketing"
+      },
+      {
+        "type": "text",
+        "content": "To: Linda Smith\nFrom: Accounting Department\nDate: November 20\n\nDear Linda, we have reviewed your expense report for the Singapore trip. Everything looks correct except for the meals on November 13. According to our policy, the daily limit is $50. We can only reimburse you for that amount. The remaining $12 will not be covered. We will process the payment for the adjusted total today."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-011-1",
+        "q": "What is the maximum daily meal allowance according to the policy?",
+        "options": ["$10", "$12", "$45", "$50"],
+        "answer": 3,
+        "explanation": "文書1に'Meals are reimbursed up to $50 per day'とあります。"
+      },
+      {
+        "id": "p7-011-2",
+        "q": "Why will Linda Smith NOT be fully reimbursed for November 13?",
+        "options": ["She missed the 10-day deadline.", "She did not use the corporate booking tool.", "She spent more than the allowed daily limit.", "She forgot to include a receipt for the taxi."],
+        "answer": 2,
+        "explanation": "文書3で、11月13日の食費が上限（$50）を超えている（$62）ため、超過分は支払われないと説明されています。"
+      },
+      {
+        "id": "p7-011-3",
+        "q": "When did Linda Smith return from her trip?",
+        "options": ["November 10", "November 14", "November 20", "November 24"],
+        "answer": 1,
+        "explanation": "文書2の表のタイトルに'Nov 12-14'とあるため、出張が終わったのは14日です。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-012",
+    "title": "Global Tech Summit 2026",
+    "category": "Part 7",
+    "target_time_sec": 420,
+    "passages": [
+      {
+        "type": "text",
+        "content": "Announcement: Global Tech Summit 2026\nJoin us in Tokyo from March 10-12 for the premier event for software developers. Register by January 31 to receive the 'Early Bird' discount (15% off). Regular registration continues until February 28. This year's focus is on 'The Future of Systems Programming and Cloud Security.' All workshops require pre-registration as seats are limited to 30 per session."
+      },
+      {
+        "type": "table",
+        "title": "Workshop Schedule - Day 1 (March 10)",
+        "header": ["ID", "Topic", "Instructor", "Room", "Extra Fee"],
+        "rows": [
+          ["WS-01", "Rust for Embedded Systems", "Alice Vance", "Room 401", "$50.00"],
+          ["WS-02", "Advanced Python GUI Design", "Mark Thompson", "Room 402", "$30.00"],
+          ["WS-03", "AWS Security Best Practices", "Kevin Lee", "Room 501", "$40.00"],
+          ["WS-04", "Node-based UI Architectures", "Sarah Miller", "Room 505", "$35.00"]
+        ],
+        "footer": "*Note: Workshop fees are in addition to the general summit registration ($500.00)."
+      },
+      {
+        "type": "text",
+        "content": "From: Kenji Sato <k.sato@it-solutions.jp>\nTo: GTS Registration <support@techsummit.com>\nDate: January 25\nSubject: Registration Change - Order #8821\n\nHello, I registered for the summit last week to take advantage of the discount. I originally signed up for WS-02 because I am developing a desktop application. However, my project focus has shifted to microcontrollers. Could you please switch my workshop registration to the one led by Alice Vance? I understand there is a price difference and am happy to pay the balance. Also, can you confirm the room for the new session?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-012-1",
+        "q": "What is the total base registration fee if paid in February?",
+        "options": ["$425.00", "$450.00", "$500.00", "$575.00"],
+        "answer": 2,
+        "explanation": "文書1と2より、通常料金（2月中の登録）は$500.00です。1月31日までなら15%引きになりますが、質問は2月について聞いています。"
+      },
+      {
+        "id": "p7-012-2",
+        "q": "Which workshop is Mr. Sato currently registered for?",
+        "options": ["Rust for Embedded Systems", "Advanced Python GUI Design", "AWS Security Best Practices", "Node-based UI Architectures"],
+        "answer": 1,
+        "explanation": "文書3で'I originally signed up for WS-02'とあり、表のWS-02は'Advanced Python GUI Design'です。"
+      },
+      {
+        "id": "p7-012-3",
+        "q": "What is true about the workshop Mr. Sato wants to switch to?",
+        "options": ["It is held in Room 402.", "It is led by Sarah Miller.", "It has an extra fee of $50.00.", "It is about cloud security."],
+        "answer": 2,
+        "explanation": "彼が変更を希望しているのはAlice Vanceのセッション（WS-01）で、表によるとその追加費用は$50.00です。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-013",
+    "title": "Investment Portfolio Update",
+    "category": "Part 7",
+    "target_time_sec": 360,
+    "passages": [
+      {
+        "type": "text",
+        "content": "Skyline Asset Management - Monthly Newsletter\nAs of February 2026, the market has shown strong growth in the technology sector. Under the new tax-free investment regulations, individuals can now contribute up to $20,000 annually to their growth accounts. We recommend reviewing your portfolio to ensure it aligns with your long-term goals. Please note our upcoming webinar on 'US Treasury Bonds' scheduled for February 20."
+      },
+      {
+        "type": "table",
+        "title": "Customer Portfolio Summary: Mr. Robert Chen",
+        "header": ["Asset Name", "Type", "Current Value", "Monthly Change"],
+        "rows": [
+          ["Global Tech Fund", "Mutual Fund", "$45,000", "+5.2%"],
+          ["Secure Bonds B", "Fixed Income", "$12,000", "-0.1%"],
+          ["S&P 500 ETF", "Index Fund", "$33,000", "+3.8%"],
+          ["Cash Reserve", "Savings", "$10,000", "0.0%"]
+        ],
+        "footer": "Total Portfolio Value: $100,000 | Risk Profile: Moderate"
+      },
+      {
+        "type": "text",
+        "content": "From: Robert Chen <r.chen@email.com>\nTo: Skyline Support <help@skyline-asset.com>\nDate: February 5\nSubject: Rebalancing my portfolio\n\nI read your newsletter regarding the growth in tech. Given that my Global Tech Fund has performed so well, I'd like to move half of my Cash Reserve into it to maximize my gains. Also, I am very interested in the US Treasury Bonds mentioned. Can you tell me if 'Secure Bonds B' in my current list follows similar trends, or should I wait for the webinar on the 20th?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-013-1",
+        "q": "What is the new annual limit for tax-free growth accounts?",
+        "options": ["$10,000", "$12,000", "$20,000", "$45,000"],
+        "answer": 2,
+        "explanation": "文書1に'up to $20,000 annually'と記載されています。"
+      },
+      {
+        "id": "p7-013-2",
+        "q": "Which asset in Mr. Chen's portfolio had the highest growth this month?",
+        "options": ["Global Tech Fund", "Secure Bonds B", "S&P 500 ETF", "Cash Reserve"],
+        "answer": 0,
+        "explanation": "文書2の表の'Monthly Change'を見ると、Global Tech Fundが+5.2%で最大です。"
+      },
+      {
+        "id": "p7-013-3",
+        "q": "How much money does Mr. Chen want to move into the Global Tech Fund?",
+        "options": ["$5,000", "$10,000", "$22,500", "$50,000"],
+        "answer": 0,
+        "explanation": "文書3で'move half of my Cash Reserve'（現金の半分を移したい）とあり、表（文書2）でCash Reserveは$10,000なので、その半分の$5,000が正解です。"
+      }
+    ]
+  },
+  {
+    "id": "SET-P7-014",
+    "title": "Logistics Inquiry",
+    "category": "Part 7",
+    "target_time_sec": 300,
+    "passages": [
+      {
+        "type": "text",
+        "content": "Swift-Logistics Shipping Rates\nDomestic shipping rates are calculated based on weight and speed. \n- Economy (5-7 days): $0.50 per lb\n- Standard (3-5 days): $1.20 per lb\n- Express (1-2 days): $2.50 per lb\n*A flat $10 handling fee applies to all orders containing fragile electronic equipment."
+      },
+      {
+        "type": "table",
+        "title": "Shipment Inventory - Order #SL-4001",
+        "header": ["Quantity", "Item Description", "Weight (Total)", "Fragile?"],
+        "rows": [
+          ["2", "Office Chairs", "40 lbs", "No"],
+          ["1", "High-End Workstation (PC)", "25 lbs", "Yes"],
+          ["3", "External Monitors", "30 lbs", "Yes"]
+        ],
+        "footer": "Total Weight: 95 lbs | Shipping Method Selected: Standard"
+      },
+      {
+        "type": "text",
+        "content": "From: Shipping Team <team@swift-logistics.com>\nTo: Customer <j.doe@tech-startup.com>\nDate: January 10\n\nWe are processing your order #SL-4001. We noticed that your shipment includes 4 fragile electronic items. Please be aware that our 'Standard' method currently has a 1-day delay due to weather. If you wish to upgrade to 'Express' to ensure your workstation arrives by Friday, please let us know by 3:00 PM today. The handling fee is already included in your initial quote."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p7-014-1",
+        "q": "How much is the shipping rate per pound for the method the customer originally selected?",
+        "options": ["$0.50", "$1.20", "$2.50", "$10.00"],
+        "answer": 1,
+        "explanation": "文書2で'Standard'を選択しており、文書1よりStandardの料金は$1.20 per lbです。"
+      },
+      {
+        "id": "p7-014-2",
+        "q": "Which items in the shipment are considered fragile electronics?",
+        "options": ["Office Chairs and PC", "PC and External Monitors", "Only the Office Chairs", "All items in the list"],
+        "answer": 1,
+        "explanation": "文書2の表で'Fragile?'がYesになっているのはPCとモニターです。"
+      },
+      {
+        "id": "p7-014-3",
+        "q": "What is the main reason the shipping team contacted the customer?",
+        "options": ["To report a broken item", "To suggest a shipping upgrade due to weather", "To ask for the weight of the monitors", "To inform the customer that the handling fee was missed"],
+        "answer": 1,
+        "explanation": "文書3で天候による遅延を伝え、Expressへのアップグレード（upgrade to Express）を提案しています。"
+      }
+    ]
+  }
+]
