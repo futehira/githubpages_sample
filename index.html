@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOEIC Scalable Trainer</title>
+    <title>EnglishStudy</title>
     <style>
         :root { --primary: #2563eb; --success: #059669; --bg: #f8fafc; --text: #1e293b; }
         body { font-family: -apple-system, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
@@ -73,7 +73,7 @@
 <div class="container">
     <div id="view-dashboard" class="view active">
         <div class="app-header">
-            <h2>TOEIC Study List</h2>
+            <h2>英語勉強用</h2>
             <div id="overall-stats" style="font-size: 0.9rem;"></div>
         </div>
         <div id="set-list">読み込み中...</div>
@@ -98,7 +98,7 @@
     let currentSet = null;
     let timerInterval;
     let startTime;
-    let solvedIds = JSON.parse(localStorage.getItem('toeic_solved_v4') || "[]");
+    let solvedIds = JSON.parse(localStorage.getItem('solved_v4') || "[]");
     let userSelections = {};
 
     async function init() {
@@ -233,7 +233,7 @@
             document.getElementById(`exp-${q.id}`).style.display = 'block';
         });
 
-        localStorage.setItem('toeic_solved_v4', JSON.stringify(solvedIds));
+        localStorage.setItem('solved_v4', JSON.stringify(solvedIds));
         const status = finalTime <= currentSet.target_time_sec ? "目標達成！" : "時間超過";
         alert(`タイム: ${document.getElementById('timer').innerText}\n${status}`);
     }
