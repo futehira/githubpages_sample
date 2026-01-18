@@ -662,5 +662,502 @@
         "explanation": "文書3で天候による遅延を伝え、Expressへのアップグレード（upgrade to Express）を提案しています。"
       }
     ]
-  }
+  },
+{
+  "id": "SET-P6-TECH-001",
+  "title": "Cloud Migration Project",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Engineering Staff\nFrom: IT Director\nSubject: Migration to New Cloud Platform\n\nStarting next Monday, our department will begin the process of migrating all local server data to a new cloud-based infrastructure. This transition is expected to improve our data access speed and -------(131.) our overall workflow. \n\nPlease ensure that all current projects are backed up on the temporary drive before Friday afternoon. -------(132.), any files not stored in the designated area may be lost during the transfer. \n\nWe understand that this change may be -------(133.) at first. However, the new system will provide better support for our remote development teams. -------(134.). If you encounter any technical issues, please contact the help desk immediately.\n\nThank you for your cooperation.",
+  "questions": [
+    {
+      "id": "p6-tech-01-1",
+      "q": "No. 131",
+      "options": ["simplify", "simplification", "simple", "simply"],
+      "answer": 0,
+      "explanation": "助動詞 will の後の improve と並列になる動詞の原形が必要です。(A) simplify（簡素化する）が正解です。"
+    },
+    {
+      "id": "p6-tech-01-2",
+      "q": "No. 132",
+      "options": ["Otherwise", "Therefore", "Similarly", "Conversely"],
+      "answer": 0,
+      "explanation": "「バックアップしてください。さもなければ（Otherwise）〜」という条件・警告を繋ぐ接続詞が適切です。"
+    },
+    {
+      "id": "p6-tech-01-3",
+      "q": "No. 133",
+      "options": ["convenient", "challenging", "stable", "frequent"],
+      "answer": 1,
+      "explanation": "文脈から「最初は大変かもしれない（challenging）が、長期的にはメリットがある」という構成が自然です。"
+    },
+    {
+      "id": "p6-tech-01-4",
+      "q": "No. 134",
+      "options": [
+        "The server room will be renovated next month.",
+        "Detailed manuals for the new platform are attached to this email.",
+        "We are still looking for experienced cloud engineers.",
+        "The annual budget has been approved by the board."
+      ],
+      "answer": 1,
+      "explanation": "システム移行に関する案内なので、操作方法やマニュアルに関する補足文が最も適切です。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-HR-002",
+  "title": "Recruitment Process Update",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Mr. Thompson,\n\nThank you for applying for the Senior Software Developer position at NexaTech Solutions. We have reviewed your application and are -------(131.) to invite you for a first-round interview. \n\nThe interview will be conducted via video conference on Thursday, October 12. During the session, you will be asked to demonstrate your -------(132.) in C++ and Python through a brief coding test. \n\n-------(133.). This will give us a better understanding of how you approach complex architecture designs. -------(134.), please send us a list of three professional references by the end of this week.\n\nWe look forward to speaking with you soon.",
+  "questions": [
+    {
+      "id": "p6-hr-02-1",
+      "q": "No. 131",
+      "options": ["pleased", "pleasing", "pleasure", "pleasant"],
+      "answer": 0,
+      "explanation": "be動詞の後の補語として、感情を表す過去分詞 (A) pleased が適切です。"
+    },
+    {
+      "id": "p6-hr-02-2",
+      "q": "No. 132",
+      "options": ["proficiency", "agreement", "location", "permission"],
+      "answer": 0,
+      "explanation": "コーディングテストを通じて「習熟度（proficiency）」を証明するという文脈が最適です。"
+    },
+    {
+      "id": "p6-hr-02-3",
+      "q": "No. 133",
+      "options": [
+        "Your resume was very impressive.",
+        "We have already filled the position.",
+        "The test will last approximately 30 minutes.",
+        "The office is currently under construction."
+      ],
+      "answer": 2,
+      "explanation": "直前の「コーディングテスト」についての詳細説明である (C) が最も自然な流れです。"
+    },
+    {
+      "id": "p6-hr-02-4",
+      "q": "No. 134",
+      "options": ["Consequently", "Additionally", "Nevertheless", "Instead"],
+      "answer": 1,
+      "explanation": "面接の案内に加えて「推薦人のリスト送付」を追加で依頼しているため、(B) Additionally が正解です。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-OFFICE-003",
+  "title": "Elevator Maintenance Notice",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Notice to All Tenants,\n\nPlease be advised that the main elevators in the West Wing will be undergoing scheduled maintenance on Saturday, March 15. The work is -------(131.) to take place between 8:00 AM and 5:00 PM. \n\nDuring this period, all three elevators will be out of service. -------(132.), tenants are encouraged to use the service elevator located near the loading dock or the stairs. \n\nWe apologize for any -------(133.) this may cause. We are performing these upgrades to ensure the continued safety and reliability of the building's facilities. -------(134.).\n\nThank you for your patience.",
+  "questions": [
+    {
+      "id": "p6-office-03-1",
+      "q": "No. 131",
+      "options": ["resulted", "intended", "expected", "measured"],
+      "answer": 2,
+      "explanation": "「〜することが予想・予定されている」という慣用表現 be expected to が正解です。"
+    },
+    {
+      "id": "p6-office-03-2",
+      "q": "No. 132",
+      "options": ["For example", "In contrast", "As a result", "However"],
+      "answer": 2,
+      "explanation": "エレベーターが止まるという原因に対し、「結果として（As a result）」別の手段を勧める流れになります。"
+    },
+    {
+      "id": "p6-office-03-3",
+      "q": "No. 133",
+      "options": ["inconvenience", "investment", "information", "instruction"],
+      "answer": 0,
+      "explanation": "工事による「不便」を謝罪する定型表現 (A) inconvenience が適切です。"
+    },
+    {
+      "id": "p6-office-03-4",
+      "q": "No. 134",
+      "options": [
+        "Please contact the management office for monthly parking rates.",
+        "New security cameras were installed last week.",
+        "Normal operation will resume on Sunday morning.",
+        "The cafeteria will be serving a special menu."
+      ],
+      "answer": 2,
+      "explanation": "メンテナンス終了後の「通常運行の再開」について述べている (C) が締めくくりとして最適です。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-TECH-004",
+  "title": "Firmware Update for Smart-Link Hub",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: Registered Users\nFrom: Smart-Link Technical Support\nSubject: Critical Firmware Update Required\n\nDear Valued Customer,\n\nWe are writing to inform you that a new firmware update (v2.4) is now available for your Smart-Link Hub. This update is designed to improve the -------(131.) of your device with the latest wireless communication protocols. \n\n-------(132.), the update patches several minor security vulnerabilities discovered in the previous version. To ensure your system remains secure, please download and install the update as soon as possible. \n\nPlease note that your device -------(133.) to the internet throughout the entire installation process. -------(134.). Failure to follow these instructions may result in a system malfunction.\n\nBest regards,\n\nSmart-Link Support Team",
+  "questions": [
+    {
+      "id": "p6-tech-04-1",
+      "q": "No. 131",
+      "options": ["compatible", "compatibility", "compatibly", "compatibles"],
+      "answer": 1,
+      "explanation": "定冠詞 the と前置詞 of の間には名詞が必要です。(B) compatibility（互換性）が正解です。"
+    },
+    {
+      "id": "p6-tech-04-2",
+      "q": "No. 132",
+      "options": ["In addition", "Instead", "Nevertheless", "Otherwise"],
+      "answer": 0,
+      "explanation": "「プロトコルの改善」というメリットに加え、「セキュリティパッチ」という別のメリットを付け加えているため、(A) In addition（加えて）が適切です。"
+    },
+    {
+      "id": "p6-tech-04-3",
+      "q": "No. 133",
+      "options": ["must be connected", "will connect", "is connecting", "connected"],
+      "answer": 0,
+      "explanation": "インストール中の「義務・必要条件」を述べているため、助動詞を用いた受動態 (A) must be connected が正解です。"
+    },
+    {
+      "id": "p6-tech-04-4",
+      "q": "No. 134",
+      "options": [
+        "We are currently out of stock for this model.",
+        "Do not disconnect the power cable during the update.",
+        "Our headquarters will be relocated next month.",
+        "A refund will be issued to your credit card."
+      ],
+      "answer": 1,
+      "explanation": "直後の「指示に従わないと故障の原因になる」という警告に繋がる、具体的な禁止事項 (B) が最も自然です。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-MED-005",
+  "title": "Annual Health Check-up Notice",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Employees\nFrom: Human Resources Department\nSubject: Mandatory Annual Health Screening\n\nAs part of our commitment to employee wellness, the company is organizing its annual health screening from June 10 to June 14. All staff members are required to -------(131.) in this program. \n\nScreenings will take place in the conference room on the third floor. You can book your preferred time slot through our internal portal. -------(132.). If you cannot find a suitable time, please contact the HR coordinator before Friday. \n\nOn the day of your appointment, please remember to fast for at least eight hours -------(133.) your screening. This is necessary to ensure the accuracy of your blood test results. -------(134.). \n\nThank you for prioritizing your health.",
+  "questions": [
+    {
+      "id": "p6-med-05-1",
+      "q": "No. 131",
+      "options": ["participate", "participating", "participation", "participant"],
+      "answer": 0,
+      "explanation": "are required to の後の不定詞として動詞の原形 (A) participate（参加する）が必要です。"
+    },
+    {
+      "id": "p6-med-05-2",
+      "q": "No. 132",
+      "options": [
+        "The conference room is unavailable for meetings.",
+        "Registration is on a first-come, first-served basis.",
+        "The company gym will be closed for maintenance.",
+        "Most employees prefer to work from home on Fridays."
+      ],
+      "answer": 1,
+      "explanation": "予約システムの話をしているため、「先着順（first-come, first-served）」であるという追加情報は非常に自然な流れです。"
+    },
+    {
+      "id": "p6-med-05-3",
+      "q": "No. 133",
+      "options": ["prior to", "next to", "aside from", "owing to"],
+      "answer": 0,
+      "explanation": "「検査の前に（prior to）」絶食する必要があるという、時間的関係を示す表現が適切です。"
+    },
+    {
+      "id": "p6-med-05-4",
+      "q": "No. 134",
+      "options": ["Consequently", "Furthermore", "However", "Otherwise"],
+      "answer": 1,
+      "explanation": "絶食の指示に加え、「正確な結果を出すために」という追加理由や別の指示を補足する流れで (B) Furthermore が適しています。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-RETAIL-006",
+  "title": "Response to Return Request",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Ms. Garcia,\n\nWe have received your request to return the damaged item from your recent order (#99821). We apologize for the -------(131.) you experienced when you opened the package. \n\nAccording to our records, the item was damaged during transit. -------(132.). We will send a replacement unit to your address today at no additional cost. \n\nPlease use the -------(133.) shipping label to return the defective product to our warehouse. You can drop it off at any authorized shipping center. -------(134.), your replacement order will be delivered within three business days. \n\nWe value your business and hope to serve you better in the future.",
+  "questions": [
+    {
+      "id": "p6-retail-06-1",
+      "q": "No. 131",
+      "options": ["disappoint", "disappointing", "disappointment", "disappointed"],
+      "answer": 2,
+      "explanation": "定冠詞 the の後の目的語として名詞が必要です。(C) disappointment（落胆・残念な思い）が正解です。"
+    },
+    {
+      "id": "p6-retail-06-2",
+      "q": "No. 132",
+      "options": [
+        "Your order has been canceled as requested.",
+        "Please accept our sincere apologies for this error.",
+        "The item you ordered is currently out of stock.",
+        "Our return policy lasts only for thirty days."
+      ],
+      "answer": 1,
+      "explanation": "不備があったことへの謝罪を述べる (B) が、前後の文脈（配送事故 → 代わりの品を送る）に最もフィットします。"
+    },
+    {
+      "id": "p6-retail-06-3",
+      "q": "No. 133",
+      "options": ["enclose", "enclosing", "enclosed", "enclosure"],
+      "answer": 2,
+      "explanation": "「同封された配送ラベル」という意味にするために、過去分詞で名詞を修飾する (C) enclosed が正解です。"
+    },
+    {
+      "id": "p6-retail-06-4",
+      "q": "No. 134",
+      "options": ["Meanwhile", "Therefore", "Initially", "Regularly"],
+      "answer": 0,
+      "explanation": "「（返品手続きを進めてもらう）一方で、代替品は3日以内に届く」という並行する状況を示す (A) Meanwhile が適切です。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-TRAVEL-007",
+  "title": "Reservation Amendment",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Mr. Yamamoto,\n\nWe are writing to confirm that your reservation at the Grand Plaza Hotel has been -------(131.) as requested. Your original checkout date of May 12 has been extended to May 14. \n\nPlease note that due to high demand during the conference season, we have moved you to a Deluxe Suite for the final two nights. -------(132.). We have waived the additional upgrade fee as a gesture of our appreciation for your loyalty. \n\nHowever, please be aware that breakfast is -------(133.) included in the new suite rate. -------(134.), you will need to pay a small surcharge if you wish to dine at our restaurant. \n\nWe look forward to welcoming you to London.",
+  "questions": [
+    {
+      "id": "p6-travel-07-1",
+      "q": "No. 131",
+      "options": ["modify", "modifying", "modified", "modification"],
+      "answer": 2,
+      "explanation": "has been の後の受動態として過去分詞 (C) modified が正解です。"
+    },
+    {
+      "id": "p6-travel-07-2",
+      "q": "No. 132",
+      "options": [
+        "Your original room was no longer available.",
+        "The hotel restaurant is closed for renovations.",
+        "We hope you enjoy the view of the city.",
+        "Parking is available for an extra charge."
+      ],
+      "answer": 0,
+      "explanation": "「別の部屋（スイート）に移動した」理由として、元の部屋が空いていなかったことを述べる (A) が最も自然です。"
+    },
+    {
+      "id": "p6-travel-07-3",
+      "q": "No. 133",
+      "options": ["no longer", "almost", "ever", "highly"],
+      "answer": 0,
+      "explanation": "文脈から「（以前は含まれていたが）もはや含まれていない（no longer）」という否定のニュアンスが適切です。"
+    },
+    {
+      "id": "p6-travel-07-4",
+      "q": "No. 134",
+      "options": ["Consequently", "Similarly", "Nevertheless", "Otherwise"],
+      "answer": 0,
+      "explanation": "「朝食が含まれない」という原因に対し、「結果として（Consequently）追加料金が必要」という流れになります。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-EVENT-008",
+  "title": "Invitation to Speak",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Dr. Arisaka,\n\nOn behalf of the International AI Association, I am writing to invite you to be the keynote speaker at our annual summit this September. We were deeply impressed by your recent -------(131.) on machine learning efficiency. \n\nThe summit will be held in Singapore, and we expect over 500 industry leaders to attend. -------(132.). We would be honored if you could share your insights during a 45-minute presentation. \n\nAll travel and accommodation expenses -------(133.) by the association. Additionally, a modest honorarium will be provided for your time. -------(134.), please let us know your decision by the end of the month.\n\nSincerely,\n\nMark Chen\nEvent Coordinator",
+  "questions": [
+    {
+      "id": "p6-event-08-1",
+      "q": "No. 131",
+      "options": ["published", "publication", "publicly", "publicize"],
+      "answer": 1,
+      "explanation": "所有格 your の後には名詞が必要です。ここでは「出版物・論文」を指す (B) publication が正解です。"
+    },
+    {
+      "id": "p6-event-08-2",
+      "q": "No. 132",
+      "options": [
+        "The registration fee has been increased.",
+        "This event focuses on the latest software trends.",
+        "You have already attended this conference before.",
+        "The venue is located near the airport."
+      ],
+      "answer": 1,
+      "explanation": "招待するカンファレンスの内容（テーマ）を補足する (B) が最も適しています。"
+    },
+    {
+      "id": "p6-event-08-3",
+      "q": "No. 133",
+      "options": ["will cover", "are covering", "will be covered", "covers"],
+      "answer": 2,
+      "explanation": "「費用」は「カバーされる（支払われる）」側なので、未来の受動態 (C) が正解です。"
+    },
+    {
+      "id": "p6-event-08-4",
+      "q": "No. 134",
+      "options": ["Instead", "Furthermore", "Therefore", "Initially"],
+      "answer": 2,
+      "explanation": "これまでの提案を踏まえ、「したがって（Therefore）」返事をください、という結びになります。"
+    }
+  ]
+},
+{
+  "id": "SET-P6-MANU-009",
+  "title": "Production Line Maintenance",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Factory Supervisors\nFrom: Quality Control Manager\nSubject: Scheduled Upgrades to Assembly Line B\n\nPlease be informed that Assembly Line B will be temporarily shut down for hardware upgrades next Friday. These upgrades are necessary to ensure that our products meet the updated -------(131.) standards for the European market. \n\nDuring the downtime, technicians will install new automated sensors to detect defects more -------(132.). -------(133.). As a result, we expect a 15% increase in production efficiency once the line resumes operation. \n\nWe apologize for the interruption to the current output schedule. -------(134.) have any concerns regarding the adjusted deadlines, please discuss them with your department head today.\n\nBest regards,\n\nSarah Miller",
+  "questions": [
+    {
+      "id": "p6-manu-09-1",
+      "q": "No. 131",
+      "options": ["safety", "safely", "safest", "safeness"],
+      "answer": 0,
+      "explanation": "standards（基準）を修飾する名詞形容詞的用法として (A) safety（安全基準）が適切です。"
+    },
+    {
+      "id": "p6-manu-09-2",
+      "q": "No. 132",
+      "options": ["accurately", "accuracy", "accurate", "accurateness"],
+      "answer": 0,
+      "explanation": "動詞 detect（検知する）を修飾する副詞 (A) accurately（正確に）が正解です。"
+    },
+    {
+      "id": "p6-manu-09-3",
+      "q": "No. 133",
+      "options": [
+        "The cafeteria will be closed for cleaning.",
+        "These sensors have been tested extensively in Lab A.",
+        "The shipment of raw materials has been delayed.",
+        "Staff are required to wear safety goggles at all times."
+      ],
+      "answer": 1,
+      "explanation": "直前で述べた「新しいセンサー」について詳細を補足する (B) が文脈に合致した一文です。"
+    },
+    {
+      "id": "p6-manu-09-4",
+      "q": "No. 134",
+      "options": ["Should you", "Unless you", "Provided you", "Whether you"],
+      "answer": 0,
+      "explanation": "If you should have... の If が省略された倒置の形（万一〜なら）を問う頻出問題です。 (A) が正解となります。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-015",
+  "title": "Cloud Service Plan Migration",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "NexGen Cloud Solutions - Monthly Tiers\n- Basic: $50 (Up to 5 users, 100GB storage)\n- Professional: $120 (Up to 20 users, 500GB storage)\n- Enterprise: $300 (Unlimited users, 2TB storage)\n*Additional storage: $10 per 50GB.\n*Late payment fee: 5% of the total bill."
+    },
+    {
+      "type": "table",
+      "title": "Current Usage Report - Account #NX-880",
+      "header": ["Month", "Active Users", "Storage Used", "Current Plan"],
+      "rows": [
+        ["November", "4", "90 GB", "Basic"],
+        ["December", "6", "110 GB", "Basic"]
+      ],
+      "footer": "Note: December bill is overdue as of January 15."
+    },
+    {
+      "type": "text",
+      "content": "From: billing@nexgen.com\nTo: k.smith@startup.io\nDate: January 18\n\nRegarding your December usage, you exceeded the 'Basic' plan limits for both users and storage. We have not processed your payment yet. To avoid further overage charges, we recommend upgrading to 'Professional'. If you pay the December bill by January 20, we will waive the late fee. However, if you stay on the Basic plan for December, you must pay for the extra users ($15 per additional user) plus the standard storage overage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-015-1",
+      "q": "What is implied about the customer's December usage?",
+      "options": [
+        "They used less than 100GB of storage.",
+        "They had more active users than allowed by their plan.",
+        "They were already subscribed to the Professional plan.",
+        "They paid their bill on time in January."
+      ],
+      "answer": 1,
+      "explanation": "文書2の表を見ると12月のActive Usersは6人ですが、文書1のBasicプランの上限は5人です。文書3でも制限を超えた（exceeded limits）と言及されているため、(B)が正解です。"
+    },
+    {
+      "id": "p7-015-2",
+      "q": "If the customer pays on January 19 and decides to remain on the Basic plan, how much is the December bill (excluding late fees)?",
+      "options": ["$65", "$75", "$85", "$95"],
+      "answer": 1,
+      "explanation": "Basicプラン基本料金 $50。追加ユーザー1名分 $15。追加ストレージ（110GBなので100GBを超過。50GB単位で$10追加）$10。合計 $50 + $15 + $10 = $75 です。"
+    },
+    {
+      "id": "p7-015-3",
+      "q": "According to the email, what benefit is offered for paying by January 20?",
+      "options": [
+        "A 5% discount on the Professional plan",
+        "The removal of an additional charge for late payment",
+        "Unlimited storage for the month of January",
+        "A refund for previous overage charges"
+      ],
+      "answer": 1,
+      "explanation": "文書3に「waive the late fee（延滞料金を免除する）」とあります。文書1で延滞金は5%と定義されているため、(B)の「延滞による追加料金の削除」が正解です。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-016",
+  "title": "Equipment Maintenance Strategy",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Industrial Sensor Maintenance Parts\n- Optical Sensor (Type-A): $400\n- Pressure Valve (Type-B): $250\n- Controller Module (Type-C): $1,200\n*Orders over $1,000 receive a 10% discount.\n*Expedited shipping (next day): $50 flat rate."
+    },
+    {
+      "type": "table",
+      "title": "Inspection Report - Line 3",
+      "header": ["Location", "Component", "Status", "Recommendation"],
+      "rows": [
+        ["Station 1", "Optical Sensor", "Fair", "Monitor only"],
+        ["Station 4", "Optical Sensor", "Critical", "Replace immediately"],
+        ["Station 7", "Controller Module", "Poor", "Replace soon"]
+      ],
+      "footer": "Technician: M. Tanaka | Date: Feb 5"
+    },
+    {
+      "type": "text",
+      "content": "From: Production Mgr\nTo: Purchasing Dept\nDate: Feb 6\n\nFollowing Tanaka-san's report, please order all 'Recommendation: Replace' items for Line 3 today. Use next-day shipping as Station 4 is currently down. We have been informed that the Controller Module (Type-C) is out of stock until next week, so just order the sensor for now. We will handle the module in a separate budget next month."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-016-1",
+      "q": "What is the primary reason for the urgent order?",
+      "options": [
+        "A 10% discount is expiring today.",
+        "One part of the production line is not functioning.",
+        "The technician requested an upgrade to Type-C modules.",
+        "The European safety standards have changed."
+      ],
+      "answer": 1,
+      "explanation": "文書3に「Station 4 is currently down（第4ステーションは現在停止中）」とあり、それに伴って「Replace immediately」の部品を急ぎで注文しているため、(B)が正解です。"
+    },
+    {
+      "id": "p7-016-2",
+      "q": "How much will the company pay for the order made on Feb 6?",
+      "options": ["$400", "$450", "$1,080", "$1,130"],
+      "answer": 1,
+      "explanation": "文書3より「現時点ではセンサー（$400）のみ注文」し、「翌日配送（$50）」を利用します。合計 $450 です。モジュール（$1,200）は在庫切れで注文を見送ったため、10%割引（$1,000以上）は適用されません。"
+    },
+    {
+      "id": "p7-016-3",
+      "q": "What is indicated about the Controller Module?",
+      "options": [
+        "It will be replaced immediately at Station 1.",
+        "It is no longer being manufactured.",
+        "It will not be purchased in the current order.",
+        "It is eligible for a volume discount if ordered with valves."
+      ],
+      "answer": 2,
+      "explanation": "文書3の「so just order the sensor for now（今はセンサーだけ注文して）」および「module in a separate budget next month（モジュールは来月の別予算で）」という記述から、今回の注文には含まれないことがわかります。"
+    }
+  ]
+}
 ]
