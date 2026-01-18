@@ -10,9 +10,34 @@
         .container { max-width: 650px; margin: auto; }
         
         /* 共通ヘッダー */
-        .app-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .app-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .view { display: none; }
         .active { display: block; }
+
+        /* カテゴリータブ */
+        .category-tabs {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding: 10px 0;
+            margin-bottom: 15px;
+            -webkit-overflow-scrolling: touch;
+        }
+        .tab {
+            white-space: nowrap;
+            padding: 8px 16px;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
 
         /* ダッシュボード */
         .set-card { background: white; padding: 15px; border-radius: 12px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); cursor: pointer; transition: 0.2s; }
@@ -23,7 +48,7 @@
         .status-unsolved { background: #dbeafe; color: #1e40af; }
         .status-solved { background: #dcfce7; color: #166534; }
 
-        /* 学習ビュー */
+        /* 学習ビュー（以下、変更なし） */
         .solve-header { position: sticky; top: 0; background: white; padding: 15px; margin: -20px -20px 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; justify-content: space-between; align-items: center; z-index: 100; }
         .passage { background: white; padding: 20px; border-radius: 10px; border: 1px solid #e2e8f0; line-height: 1.6; white-space: pre-wrap; margin-bottom: 20px; }
         .q-card { background: white; padding: 20px; border-radius: 10px; margin-bottom: 15px; }
@@ -32,40 +57,16 @@
         .opt-btn.correct { background: #dcfce7 !important; border-color: var(--success) !important; color: #166534; }
         .opt-btn.wrong { background: #fee2e2 !important; border-color: #dc2626 !important; }
 
-        /* フッター */
         .footer { position: fixed; bottom: 0; left: 0; right: 0; padding: 15px; background: white; border-top: 1px solid #e2e8f0; display: flex; gap: 10px; }
         .btn { flex: 1; padding: 12px; border-radius: 8px; font-weight: bold; border: none; cursor: pointer; }
         .btn-grade { background: var(--success); color: white; }
         .btn-back { background: #64748b; color: white; }
-        /* 表形式対応 */
-        .passage-table-wrapper {
-            width: 100%;
-            overflow-x: auto; /* スマホで横スクロール可能に */
-            margin: 15px 0;
-        }
-        .passage-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.9rem;
-            background: white;
-        }
-        .passage-table th, .passage-table td {
-            border: 1px solid #cbd5e1;
-            padding: 8px;
-            text-align: left;
-        }
-        .passage-table th {
-            background: #f1f5f9;
-            font-weight: bold;
-        }
-        .passage-table-footer {
-            text-align: right;
-            font-weight: bold;
-            padding: 8px;
-            border: 1px solid #cbd5e1;
-            border-top: none;
-            background: #f8fafc;
-        }
+        
+        .passage-table-wrapper { width: 100%; overflow-x: auto; margin: 15px 0; }
+        .passage-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; background: white; }
+        .passage-table th, .passage-table td { border: 1px solid #cbd5e1; padding: 8px; text-align: left; }
+        .passage-table th { background: #f1f5f9; font-weight: bold; }
+        .passage-table-footer { text-align: right; font-weight: bold; padding: 8px; border: 1px solid #cbd5e1; border-top: none; background: #f8fafc; }
     </style>
 </head>
 <body>
@@ -76,6 +77,9 @@
             <h2>英語勉強用</h2>
             <div id="overall-stats" style="font-size: 0.9rem;"></div>
         </div>
+        
+        <div id="category-tabs" class="category-tabs"></div>
+
         <div id="set-list">読み込み中...</div>
     </div>
 
@@ -100,20 +104,46 @@
     let startTime;
     let solvedIds = JSON.parse(localStorage.getItem('solved_v4') || "[]");
     let userSelections = {};
+    let activeCategory = "すべて"; // 現在選択中のカテゴリー
 
     async function init() {
         try {
             const res = await fetch('questions.json');
             allSets = await res.json();
+            renderCategoryTabs();
             renderDashboard();
         } catch (e) { document.getElementById('set-list').innerText = "データ読み込み失敗"; }
+    }
+
+    // カテゴリータブを生成
+    function renderCategoryTabs() {
+        const tabsContainer = document.getElementById('category-tabs');
+        const categories = ["すべて", ...new Set(allSets.map(s => s.category))];
+        
+        tabsContainer.innerHTML = categories.map(cat => `
+            <div class="tab ${activeCategory === cat ? 'active' : ''}" onclick="filterByCategory('${cat}')">
+                ${cat}
+            </div>
+        `).join('');
+    }
+
+    // カテゴリーでフィルタリング
+    function filterByCategory(category) {
+        activeCategory = category;
+        renderCategoryTabs();
+        renderDashboard();
     }
 
     function renderDashboard() {
         const list = document.getElementById('set-list');
         
+        // フィルタリング
+        const filteredSets = activeCategory === "すべて" 
+            ? allSets 
+            : allSets.filter(s => s.category === activeCategory);
+
         // ソート：未着手を優先
-        const sortedSets = [...allSets].sort((a, b) => {
+        const sortedSets = [...filteredSets].sort((a, b) => {
             const aDone = isSetSolved(a);
             const bDone = isSetSolved(b);
             return aDone === bDone ? 0 : aDone ? 1 : -1;
@@ -121,7 +151,7 @@
 
         list.innerHTML = sortedSets.map(set => {
             const done = isSetSolved(set);
-            const qCount = set.questions ? set.questions.length : 1; // 設問数
+            const qCount = set.questions ? set.questions.length : 1;
             const type = set.passages ? 'トリプル' : (set.passage ? '長文' : '単発');
 
             return `
@@ -138,70 +168,73 @@
             `;
         }).join('');
         
+        // 全体の進捗状況を更新
         document.getElementById('overall-stats').innerText = `完了: ${allSets.filter(isSetSolved).length} / ${allSets.length}`;
         switchView('view-dashboard');
     }
 
+    // --- 以降の関数は変更ありません（startSet, gradeCurrentSetなど） ---
+
     function isSetSolved(set) {
-        // 設問が配列ならそのすべてが解決済みか、単発ならそのIDが解決済みかを返す
         const qs = set.questions || [set];
         return qs.every(q => solvedIds.includes(q.id));
     }
+
     function startSet(setId) {
-            currentSet = allSets.find(s => s.id === setId);
-            userSelections = {};
-            const content = document.getElementById('solve-content');
-            
-            let passageHtml = '';
-            const ps = currentSet.passages || (currentSet.passage ? [{type: 'text', content: currentSet.passage}] : []);
+        currentSet = allSets.find(s => s.id === setId);
+        userSelections = {};
+        const content = document.getElementById('solve-content');
+        
+        let passageHtml = '';
+        const ps = currentSet.passages || (currentSet.passage ? [{type: 'text', content: currentSet.passage}] : []);
 
-            ps.forEach((p, i) => {
-                if (typeof p === 'string') {
-                    passageHtml += `<div class="passage">${p}</div>`;
-                } else if (p.type === 'text') {
-                    passageHtml += `<div class="passage">${p.content}</div>`;
-                } else if (p.type === 'table') {
-                    let tableHtml = `<div class="passage-table-wrapper">`;
-                    if (p.title) tableHtml += `<div style="font-weight:bold; margin-bottom:5px;">${p.title}</div>`;
-                    tableHtml += `<table class="passage-table">`;
-                    if (p.header) {
-                        tableHtml += `<thead><tr>${p.header.map(h => `<th>${h}</th>`).join('')}</tr></thead>`;
-                    }
-                    tableHtml += `<tbody>${p.rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>`;
-                    tableHtml += `</table>`;
-                    if (p.footer) tableHtml += `<div class="passage-table-footer">${p.footer}</div>`;
-                    tableHtml += `</div>`;
-                    passageHtml += tableHtml;
+        ps.forEach((p, i) => {
+            if (typeof p === 'string') {
+                passageHtml += `<div class="passage">${p}</div>`;
+            } else if (p.type === 'text') {
+                passageHtml += `<div class="passage">${p.content}</div>`;
+            } else if (p.type === 'table') {
+                let tableHtml = `<div class="passage-table-wrapper">`;
+                if (p.title) tableHtml += `<div style="font-weight:bold; margin-bottom:5px;">${p.title}</div>`;
+                tableHtml += `<table class="passage-table">`;
+                if (p.header) {
+                    tableHtml += `<thead><tr>${p.header.map(h => `<th>${h}</th>`).join('')}</tr></thead>`;
                 }
-            });
+                tableHtml += `<tbody>${p.rows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>`;
+                tableHtml += `</table>`;
+                if (p.footer) tableHtml += `<div class="passage-table-footer">${p.footer}</div>`;
+                tableHtml += `</div>`;
+                passageHtml += tableHtml;
+            }
+        });
 
-            // --- 修正ポイント：IDの付与とプロパティ名の修正 ---
-            const qs = currentSet.questions || [currentSet];
-            content.innerHTML = passageHtml + qs.map((q, i) => `
-                <div class="q-card">
-                    <div class="q-text" style="font-weight:bold; margin-bottom:10px;">
-                        Q${i + 1}. ${q.q || "問題文がありません"}
-                    </div>
-                    <div class="options" id="opts-${q.id}">
-                        ${(q.options || []).map((opt, optIdx) => `
-                            <button class="opt-btn" id="btn-${q.id}-${optIdx}" onclick="selectOption('${q.id}', ${optIdx})">
-                                (${String.fromCharCode(65 + optIdx)}) ${opt}
-                            </button>
-                        `).join('')}
-                    </div>
-                    <div id="exp-${q.id}" style="display:none; margin-top:10px; font-size:0.9rem; background:#fefce8; padding:10px; border-radius:5px;">
-                        <strong>解説:</strong> ${q.explanation || "解説はありません"}
-                    </div>
+        const qs = currentSet.questions || [currentSet];
+        content.innerHTML = passageHtml + qs.map((q, i) => `
+            <div class="q-card">
+                <div class="q-text" style="font-weight:bold; margin-bottom:10px;">
+                    Q${i + 1}. ${q.q || "問題文がありません"}
                 </div>
-            `).join('');
+                <div class="options" id="opts-${q.id}">
+                    ${(q.options || []).map((opt, optIdx) => `
+                        <button class="opt-btn" id="btn-${q.id}-${optIdx}" onclick="selectOption('${q.id}', ${optIdx})">
+                            (${String.fromCharCode(65 + optIdx)}) ${opt}
+                        </button>
+                    `).join('')}
+                </div>
+                <div id="exp-${q.id}" style="display:none; margin-top:10px; font-size:0.9rem; background:#fefce8; padding:10px; border-radius:5px;">
+                    <strong>解説:</strong> ${q.explanation || "解説はありません"}
+                </div>
+            </div>
+        `).join('');
 
-            document.getElementById('target-label').innerText = `目標: ${currentSet.target_time_sec}秒`;
-            switchView('view-solve');
-            
-            startTime = Date.now();
-            clearInterval(timerInterval);
-            timerInterval = setInterval(updateTimer, 100);
-        }
+        document.getElementById('target-label').innerText = `目標: ${currentSet.target_time_sec}秒`;
+        switchView('view-solve');
+        
+        startTime = Date.now();
+        clearInterval(timerInterval);
+        timerInterval = setInterval(updateTimer, 100);
+    }
+
     function selectOption(qId, oIdx) {
         userSelections[qId] = oIdx;
         const container = document.getElementById(`opts-${qId}`);
