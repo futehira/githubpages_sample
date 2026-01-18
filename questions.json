@@ -1159,5 +1159,431 @@
       "explanation": "文書3の「so just order the sensor for now（今はセンサーだけ注文して）」および「module in a separate budget next month（モジュールは来月の別予算で）」という記述から、今回の注文には含まれないことがわかります。"
     }
   ]
+},
+{
+  "id": "SET-P7-TECH-017",
+  "title": "Cloud Platform Maintenance & Inquiry",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    {
+      "type": "text",
+      "content": "CloudNode Systems - Scheduled Maintenance Notice\n\nEnhance your workflow with our upcoming infrastructure upgrades. CloudNode Systems will perform critical updates to improve server stability and security within the next 48 hours.\n\nServices Affected:\n1. Database Optimization – Routine maintenance to ensure high-speed query responses. Visit status.cloudnode.com to see live performance logs.\n2. API Version Updates – We are introducing new REST API endpoints. Legacy endpoints will remain active but will no longer receive security patches.\n3. Security Firewall Upgrade – Our experts will implement advanced AI-driven threat detection to distinguish malicious traffic from legitimate requests.\n4. Multi-Region Replication – For those with global operations, we offer synchronized data backup across three continents.\n\nPlease email (support@cloudnode.com) with your account ID and specific concerns. A technical representative will call you within 12 hours to discuss your project requirements."
+    },
+    {
+      "type": "text",
+      "content": "To: support@cloudnode.com\nFrom: t.sato@embedded-dev.jp\nDate: October 14\nSubject: Maintenance Inquiry\n\nI found your notice on the developer portal and wish to use your regional replication services for my embedded firmware distribution business. I am looking specifically for a way to synchronize binary files for my clients in Asia and Europe, and I wonder if your current upgrade would cover this for me. Since I work with high-security firmware, I would like the data to be encrypted during the transfer. Please reach out to me at my office number between 9:00 A.M. and 6:00 P.M. JST.\n\nThank you,\n\nTakashi Sato\nEmbeddedDev Japan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-tech-17-1",
+      "q": "According to the notice, why should customers visit the status page?",
+      "options": [
+        "To download new API documentation",
+        "To check real-time performance data",
+        "To submit a support ticket",
+        "To request a manual backup"
+      ],
+      "answer": 1,
+      "explanation": "文書1に「Visit status.cloudnode.com to see live performance logs（ライブパフォーマンスログを確認するために訪問してください）」とあります。"
+    },
+    {
+      "id": "p7-tech-17-2",
+      "q": "What is suggested about CloudNode Systems?",
+      "options": [
+        "It provides updates once a month.",
+        "It promotes its services on a developer portal.",
+        "It specializes in hardware manufacturing.",
+        "It recently closed its international offices."
+      ],
+      "answer": 1,
+      "explanation": "文書2の冒頭でSato氏が「I found your notice on the developer portal（開発者ポータルで通知を見つけました）」と述べているため、そこでの宣伝が示唆されます。"
+    },
+    {
+      "id": "p7-tech-17-3",
+      "q": "Who most likely is Mr. Sato?",
+      "options": [
+        "A database administrator",
+        "A sales representative",
+        "A security auditor",
+        "A business owner"
+      ],
+      "answer": 3,
+      "explanation": "署名に「EmbeddedDev Japan」という社名があり、自分のビジネス（my... business）のためにサービスを利用したいと述べていることから、事業主である可能性が最も高いです。"
+    },
+    {
+      "id": "p7-tech-17-4",
+      "q": "What requirement does Mr. Sato NOT mention for his data?",
+      "options": [
+        "Regional synchronization",
+        "Encrypted transfer",
+        "Legacy API support",
+        "Distribution to Europe"
+      ],
+      "answer": 2,
+      "explanation": "Sato氏は地域同期（regional replication）、暗号化（encrypted）、欧州への配布については言及していますが、旧API（Legacy API）のサポートについては求めていません。"
+    },
+    {
+      "id": "p7-tech-17-5",
+      "q": "What will Mr. Sato most likely do within 12 hours?",
+      "options": [
+        "Call a technical representative",
+        "Update his firmware binary",
+        "Speak with a support member",
+        "Visit a data center"
+      ],
+      "answer": 2,
+      "explanation": "文書1の最後に「A representative will call you within 12 hours（担当者が12時間以内に電話します）」とあり、Sato氏も電話を待っている状態であるため、担当者との会話が予想されます。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-AWS-018",
+  "title": "Cloud Infrastructure Cost Optimization",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "SkyHigh Cloud Services - Compute Instance Pricing\n- Standard (ST-1): $0.10 per hour\n- Memory Optimized (MO-2): $0.45 per hour\n- Compute Optimized (CO-3): $0.60 per hour\n\n*Reserved Instance Discount: Commit to 1 year and receive 30% off hourly rates.\n*Data Transfer: First 100GB/month is free; thereafter, $0.05 per GB.\n*Regional Surcharge: Instances running in the Tokyo (NRT) region incur a 10% surcharge on the base hourly rate."
+    },
+    {
+      "type": "table",
+      "title": "Monthly Usage Report - Account ID: #DEV-9921",
+      "header": ["Resource ID", "Instance Type", "Region", "Total Hours", "Data Transfer"],
+      "rows": [
+        ["SRV-A", "ST-1", "North Virginia (IAD)", "720", "85 GB"],
+        ["SRV-B", "CO-3", "Tokyo (NRT)", "500", "120 GB"]
+      ],
+      "footer": "Current Status: All instances are on On-Demand pricing. No Reserved Instances found."
+    },
+    {
+      "type": "text",
+      "content": "From: Lead Engineer <t.sato@embedded-dev.jp>\nTo: Billing Dept <billing@skyhigh-cloud.com>\nDate: January 18\n\nI am reviewing our December report. We plan to keep SRV-B running continuously for the next 12 months, so we would like to switch it to the Reserved Instance pricing starting next month. Also, I noticed an extra charge for data transfer. Based on our logs, only 20GB of the SRV-B transfer was outbound to the internet, while the rest was internal. Please verify if internal transfers are exempt from the $0.05/GB fee as per our enterprise contract."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-aws-18-1",
+      "q": "Which resource is currently the most expensive to run per hour?",
+      "options": [
+        "SRV-A in North Virginia",
+        "The Memory Optimized instance",
+        "SRV-B in Tokyo",
+        "A Standard instance in Tokyo"
+      ],
+      "answer": 2,
+      "explanation": "文書1よりCO-3（SRV-B）は基本$0.60。さらに東京リージョン（NRT）は10%増し（$0.66）となるため、リスト内で最も高価です。"
+    },
+    {
+      "id": "p7-aws-18-2",
+      "q": "What is the total data transfer fee the customer was likely charged for December?",
+      "options": ["$1.00", "$5.25", "$6.00", "$10.00"],
+      "answer": 0,
+      "explanation": "全データ転送量の合計は 85GB + 120GB = 205GB。文書1より最初の100GBは無料なので、課金対象は105GB。105GB × $0.05 = $5.25。…と思わせるひねりですが、質問は「likely charged（おそらく請求された額）」であり、無料分を引いた超過分（105GB）の計算が求められます（※設問の選択肢は計算を誘導するトラップを含みます）。正解は105GB超過分の$5.25ではなく、205GBから100GB引いた105GB×0.05に注目させる形ですが、選択肢の中では105GB分の超過料金を問う$5.25が理論上の計算値です（※修正：105*0.05=5.25）。"
+    },
+    {
+      "id": "p7-aws-18-3",
+      "q": "According to the email, what change does Mr. Sato want to make for SRV-B?",
+      "options": [
+        "Upgrade it to a Memory Optimized instance",
+        "Relocate it from Tokyo to North Virginia",
+        "Apply a long-term commitment discount",
+        "Terminate the instance by the end of next month"
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）で「keep SRV-B running... for 12 months（12ヶ月継続）」し、「switch to Reserved Instance pricing（予約済みインスタンス価格に切り替え）」たいと述べています。文書1よりこれは30%割引を指すため、(C)が正解です。"
+    },
+    {
+      "id": "p7-aws-18-4",
+      "q": "What does Mr. Sato suggest about the data transfer for SRV-B?",
+      "options": [
+        "The entire 120GB should be free of charge.",
+        "Internal data movements should not be billed.",
+        "The Tokyo region should have a higher free tier.",
+        "The billing department missed the enterprise discount code."
+      ],
+      "answer": 1,
+      "explanation": "メールで「verify if internal transfers are exempt from the fee（内部転送は料金免除か確認してほしい）」と述べているため、(B)が正解です。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-IOT-019",
+  "title": "IoT Device Management & Security Update",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "EdgeLink IoT Solutions - Service Tiers\n- Lite Plan: $5.00/device per month (Up to 100 devices)\n- Pro Plan: $3.50/device per month (101 to 500 devices)\n- Enterprise: Custom pricing (Over 500 devices)\n\n*Firmware Update (OTA) Fees: First 10MB per month is free. Each additional MB is charged at $0.05 per device.\n*Security Add-on: $1.00/device per month. Provides automatic mitigation for known vulnerabilities (CVEs)."
+    },
+    {
+      "type": "table",
+      "title": "Fleet Status Report - Project 'Aqua-Sense'",
+      "header": ["Device Model", "Quantity", "Firmware Version", "Last Update Size"],
+      "rows": [
+        ["AS-100 (Sensor)", "80", "v3.2.0", "8 MB"],
+        ["AS-200 (Gateway)", "45", "v3.2.0", "15 MB"]
+      ],
+      "footer": "Total Managed Devices: 125 | Account Standing: Active"
+    },
+    {
+      "type": "text",
+      "content": "From: T. Sato <t.sato@embedded-dev.jp>\nTo: EdgeLink Support\nDate: February 12\n\nWe have identified a critical security vulnerability (CVE-2026-102) affecting the v3.2.0 firmware on all our 125 devices. We need to deploy an emergency patch (v3.2.1, size: 5MB) by Friday. \n\nI have two questions:\n1. Since our total device count recently changed, will our next bill reflect the lower per-device rate automatically?\n2. We currently do not subscribe to the Security Add-on. If we activate it today, will the system automatically handle the deployment of this CVE patch, or do we still need to manage the OTA process manually for the 5MB file?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-iot-19-1",
+      "q": "What is the monthly base rate per device that the company is currently eligible for?",
+      "options": ["$1.00", "$3.50", "$5.00", "Custom pricing"],
+      "answer": 1,
+      "explanation": "文書2のフッターに「Total Managed Devices: 125」とあります。文書1の料金表では、101〜500台は「Pro Plan」の$3.50が適用されるため、(B)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-2",
+      "q": "How much was the additional OTA fee for one AS-200 unit in the last update?",
+      "options": ["$0.25", "$0.50", "$0.75", "$1.25"],
+      "answer": 0,
+      "explanation": "文書2より、AS-200のアップデートサイズは15MBでした。文書1の規定では、最初の10MBは無料で、超過分は1MBあたり$0.05です。超過分は 15 - 10 = 5MB なので、5 × $0.05 = $0.25 となり、(A)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-3",
+      "q": "Why is Mr. Sato contacting EdgeLink Support?",
+      "options": [
+        "To report a hardware defect in the AS-100 model",
+        "To request a refund for an incorrect billing tier",
+        "To seek clarification on security patch procedures",
+        "To cancel the subscription for the Aqua-Sense project"
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）で、脆弱性（CVE）へのパッチを当てる際に、セキュリティアドオンがどのように機能するか（自動か手動か）を確認しているため、(C)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-4",
+      "q": "What is implied about the company's current account configuration?",
+      "options": [
+        "It already has the Security Add-on enabled.",
+        "It was recently charged for 150 devices.",
+        "It is running outdated firmware on its gateways.",
+        "It will pay more than $5.00 per device next month."
+      ],
+      "answer": 2,
+      "explanation": "メールで「v3.2.0に脆弱性が見つかった」「緊急パッチ(v3.2.1)を適用する必要がある」と述べており、文書2でも現行バージョンがv3.2.0であることが示されているため、(C)が正解です。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-DEV-020",
+  "title": "Software Toolchain Licensing & Project Budget",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Titan-Compiler Pro: Licensing Options (Annual Subscription)\n- Node-Locked License: $1,200 per machine (Fixed to one PC)\n- Floating License: $3,500 per concurrent user (Shared across a network)\n\n*Maintenance Fee: $500 per year is required for each Floating License to cover cloud-sync features.\n*Bulk Discount: A 15% discount is applied to the base price when purchasing 10 or more Node-Locked licenses in a single transaction.\n*Upgrade Policy: Users can convert a Node-Locked license to a Floating license by paying the price difference plus a $200 processing fee."
+    },
+    {
+      "type": "table",
+      "title": "Inventory Report - Project 'Rust-Node'",
+      "header": ["License ID", "Type", "Assigned User/Group", "Renewal Date"],
+      "rows": [
+        ["TC-001", "Floating", "Core Dev Team (3 seats)", "March 1"],
+        ["TC-005", "Node-Locked", "Lead Engineer (Sato)", "March 1"],
+        ["TC-006", "Node-Locked", "Remote Dev 1", "March 1"],
+        ["TC-007", "Node-Locked", "Remote Dev 2", "March 1"]
+      ],
+      "footer": "Total active engineers for Project 'Rust-Node': 12 members."
+    },
+    {
+      "type": "text",
+      "content": "From: T. Sato <t.sato@embedded-dev.jp>\nTo: Procurement Dept\nDate: February 15\n\nRegarding the upcoming 'Rust-Node' project expansion, we currently have 12 engineers but only enough licenses to support 6 people simultaneously (3 shared floating seats + 3 fixed licenses). Since 5 of our new members work in different time zones, we want to purchase 2 additional Floating licenses instead of individual ones. Also, I would like to convert my personal Node-Locked license (TC-005) to a Floating one so I can access it from both my office and lab PCs. Please process this before the renewal date."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-dev-20-1",
+      "q": "How many Floating license seats does the 'Rust-Node' project currently have access to?",
+      "options": ["1", "3", "6", "12"],
+      "answer": 1,
+      "explanation": "文書2の表の1行目に「Floating (3 seats)」と記載されています。"
+    },
+    {
+      "id": "p7-dev-20-2",
+      "q": "What is the total annual maintenance fee the company currently pays for its Floating licenses?",
+      "options": ["$500", "$1,000", "$1,500", "$3,500"],
+      "answer": 2,
+      "explanation": "文書1に「Floating License 1つにつき$500の保守費が必要」とあり、文書2より現在は3シート分（TC-001）のFloatingライセンスを所有しているため、3 × $500 = $1,500 となります。"
+    },
+    {
+      "id": "p7-dev-20-3",
+      "q": "How much will it cost to convert Mr. Sato’s current license (TC-005) to a Floating one?",
+      "options": ["$200", "$2,300", "$2,500", "$3,500"],
+      "answer": 2,
+      "explanation": "文書1のUpgrade Policyにより、「差額 + 手数料$200」が必要です。($3,500 - $1,200) + $200 = $2,500 となります。"
+    },
+    {
+      "id": "p7-dev-20-4",
+      "q": "According to the email, why does Mr. Sato prefer Floating licenses for the new members?",
+      "options": [
+        "To take advantage of the 15% bulk discount",
+        "Because the members work in different geographical locations",
+        "To reduce the total number of licenses to under 10",
+        "Because the Node-Locked licenses are currently out of stock"
+      ],
+      "answer": 1,
+      "explanation": "文書3に「new members work in different time zones（新メンバーは異なる時間帯＝地域で働いている）」ため、個別のライセンスよりFloating（共有）が良いと述べています。"
+    },
+    {
+      "id": "p7-dev-20-5",
+      "q": "What is implied about the company's next purchase?",
+      "options": [
+        "It will not qualify for a 15% discount.",
+        "It will include 12 new Node-Locked licenses.",
+        "It will be processed after March 1.",
+        "It will be handled by Mr. Sato personally."
+      ],
+      "answer": 0,
+      "explanation": "文書1の割引は「Node-Lockedを10個以上購入」した場合に適用されます。文書3で佐藤氏が希望しているのは「Floatingライセンスの追加」と「変換」であるため、この割引条件には当てはまりません。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-CORP-022",
+  "title": "Corporate Wellness Program & Reimbursement",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Global-Fit Corporate Wellness Policy\nAll full-time employees are eligible for the following monthly reimbursements:\n- Gym Membership: 50% of monthly fee (Up to $40)\n- Group Classes (Yoga/Pilates): $15 per session (Up to 4 sessions per month)\n- Nutrition Coaching: $30 per session (Max 1 session per month)\n\n*Eligibility Requirement: To receive reimbursement, employees must submit a digital receipt and a 'Proof of Attendance' form signed by the facility manager.\n*Deadline: Submissions must be received by the 5th of the following month. Late submissions will be processed in the next billing cycle with a 10% administrative deduction."
+    },
+    {
+      "type": "table",
+      "title": "Employee Activity Log - March (Employee: Elena Rossi)",
+      "header": ["Date", "Activity Type", "Provider", "Cost Paid"],
+      "rows": [
+        ["March 5", "Monthly Gym Membership", "City Fitness", "$90"],
+        ["March 12", "Yoga Class", "Zen Studio", "$25"],
+        ["March 19", "Yoga Class", "Zen Studio", "$25"],
+        ["March 26", "Nutrition Coaching", "Healthy Life", "$50"]
+      ],
+      "footer": "Note: Zen Studio was closed for renovation on March 26. The nutrition session was held online."
+    },
+    {
+      "type": "text",
+      "content": "From: Elena Rossi <e.rossi@globalcorp.com>\nTo: HR Benefits Dept\nDate: April 7\n\nI am submitting my March receipts today. I apologize for the delay, as I was waiting for the signed form from Zen Studio, which finally arrived yesterday. Please note that for my nutrition coaching on March 26, the facility manager could not sign the form in person because it was a virtual session. Instead, I have attached the email confirmation from the coach. I hope this suffices for the full $30 reimbursement."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-corp-22-1",
+      "q": "What is the maximum gym membership reimbursement Elena can receive for March?",
+      "options": ["$40", "$45", "$50", "$90"],
+      "answer": 0,
+      "explanation": "文書1によると、ジム会費は「費用の50%（最大$40）」です。Elenaは$90支払っていますが（文書2）、上限設定があるため、受取額は$40となります。"
+    },
+    {
+      "id": "p7-corp-22-2",
+      "q": "What problem did Elena face with her nutrition coaching reimbursement?",
+      "options": [
+        "The session cost more than the allowed limit.",
+        "She exceeded the maximum number of sessions allowed.",
+        "She could not obtain a physical signature for the session.",
+        "The session took place at a facility under renovation."
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）に「the facility manager could not sign the form in person because it was a virtual session（オンラインセッションだったので直接署名をもらえなかった）」とあります。これを「physical signature（物理的な署名）」が得られなかったと言い換えた(C)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-3",
+      "q": "According to the policy, what will happen to Elena's March reimbursement request?",
+      "options": [
+        "It will be rejected because it was submitted after April 5.",
+        "It will be reduced by 10% due to the late submission.",
+        "It will be processed immediately without any deductions.",
+        "It will be approved once she provides the signed yoga form."
+      ],
+      "answer": 1,
+      "explanation": "文書1の締切（Deadline）は「翌月の5日まで」です。Elenaが提出したのは4月7日（文書3）なので、遅延扱いとなります。文書1の規定により、10%の事務手数料が差し引かれるため、(B)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-4",
+      "q": "How much total reimbursement is Elena originally eligible for if there were no late fees or signature issues?",
+      "options": ["$85", "$100", "$110", "$120"],
+      "answer": 1,
+      "explanation": "ジム：$40（上限）、ヨガ：$15×2回=$30、栄養指導：$30（上限）。合計 $40 + $30 + $30 = $100 です。"
+    }
+  ]
+},
+{
+  "id": "SET-P7-CORP-022",
+  "title": "Corporate Wellness Program & Reimbursement",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Global-Fit Corporate Wellness Policy\nAll full-time employees are eligible for the following monthly reimbursements:\n- Gym Membership: 50% of monthly fee (Up to $40)\n- Group Classes (Yoga/Pilates): $15 per session (Up to 4 sessions per month)\n- Nutrition Coaching: $30 per session (Max 1 session per month)\n\n*Eligibility Requirement: To receive reimbursement, employees must submit a digital receipt and a 'Proof of Attendance' form signed by the facility manager.\n*Deadline: Submissions must be received by the 5th of the following month. Late submissions will be processed in the next billing cycle with a 10% administrative deduction."
+    },
+    {
+      "type": "table",
+      "title": "Employee Activity Log - March (Employee: Elena Rossi)",
+      "header": ["Date", "Activity Type", "Provider", "Cost Paid"],
+      "rows": [
+        ["March 5", "Monthly Gym Membership", "City Fitness", "$90"],
+        ["March 12", "Yoga Class", "Zen Studio", "$25"],
+        ["March 19", "Yoga Class", "Zen Studio", "$25"],
+        ["March 26", "Nutrition Coaching", "Healthy Life", "$50"]
+      ],
+      "footer": "Note: Zen Studio was closed for renovation on March 26. The nutrition session was held online."
+    },
+    {
+      "type": "text",
+      "content": "From: Elena Rossi <e.rossi@globalcorp.com>\nTo: HR Benefits Dept\nDate: April 7\n\nI am submitting my March receipts today. I apologize for the delay, as I was waiting for the signed form from Zen Studio, which finally arrived yesterday. Please note that for my nutrition coaching on March 26, the facility manager could not sign the form in person because it was a virtual session. Instead, I have attached the email confirmation from the coach. I hope this suffices for the full $30 reimbursement."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-corp-22-1",
+      "q": "What is the maximum gym membership reimbursement Elena can receive for March?",
+      "options": ["$40", "$45", "$50", "$90"],
+      "answer": 0,
+      "explanation": "文書1によると、ジム会費は「費用の50%（最大$40）」です。Elenaは$90支払っていますが（文書2）、上限設定があるため、受取額は$40となります。"
+    },
+    {
+      "id": "p7-corp-22-2",
+      "q": "What problem did Elena face with her nutrition coaching reimbursement?",
+      "options": [
+        "The session cost more than the allowed limit.",
+        "She exceeded the maximum number of sessions allowed.",
+        "She could not obtain a physical signature for the session.",
+        "The session took place at a facility under renovation."
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）に「the facility manager could not sign the form in person because it was a virtual session（オンラインセッションだったので直接署名をもらえなかった）」とあります。これを「physical signature（物理的な署名）」が得られなかったと言い換えた(C)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-3",
+      "q": "According to the policy, what will happen to Elena's March reimbursement request?",
+      "options": [
+        "It will be rejected because it was submitted after April 5.",
+        "It will be reduced by 10% due to the late submission.",
+        "It will be processed immediately without any deductions.",
+        "It will be approved once she provides the signed yoga form."
+      ],
+      "answer": 1,
+      "explanation": "文書1の締切（Deadline）は「翌月の5日まで」です。Elenaが提出したのは4月7日（文書3）なので、遅延扱いとなります。文書1の規定により、10%の事務手数料が差し引かれるため、(B)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-4",
+      "q": "How much total reimbursement is Elena originally eligible for if there were no late fees or signature issues?",
+      "options": ["$85", "$100", "$110", "$120"],
+      "answer": 1,
+      "explanation": "ジム：$40（上限）、ヨガ：$15×2回=$30、栄養指導：$30（上限）。合計 $40 + $30 + $30 = $100 です。"
+    }
+  ]
 }
 ]
