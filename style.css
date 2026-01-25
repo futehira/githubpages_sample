@@ -39,6 +39,7 @@ body { font-family: -apple-system, sans-serif; background: var(--bg); color: var
 .set-info span { font-size: 0.8rem; color: #64748b; }
 .status-badge { font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; font-weight: bold; }
 .status-unsolved { background: #dbeafe; color: #1e40af; }
+.status-attempted { background: #fef3c7; color: #92400e; } /* 薄いオレンジ */
 .status-solved { background: #dcfce7; color: #166534; }
 
 /* 学習ビュー */
