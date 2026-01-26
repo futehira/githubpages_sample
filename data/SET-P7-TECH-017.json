@@ -1,0 +1,78 @@
+{
+  "id": "SET-P7-TECH-017",
+  "title": "Cloud Platform Maintenance & Inquiry",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    {
+      "type": "text",
+      "content": "CloudNode Systems - Scheduled Maintenance Notice\n\nEnhance your workflow with our upcoming infrastructure upgrades. CloudNode Systems will perform critical updates to improve server stability and security within the next 48 hours.\n\nServices Affected:\n1. Database Optimization – Routine maintenance to ensure high-speed query responses. Visit status.cloudnode.com to see live performance logs.\n2. API Version Updates – We are introducing new REST API endpoints. Legacy endpoints will remain active but will no longer receive security patches.\n3. Security Firewall Upgrade – Our experts will implement advanced AI-driven threat detection to distinguish malicious traffic from legitimate requests.\n4. Multi-Region Replication – For those with global operations, we offer synchronized data backup across three continents.\n\nPlease email (support@cloudnode.com) with your account ID and specific concerns. A technical representative will call you within 12 hours to discuss your project requirements."
+    },
+    {
+      "type": "text",
+      "content": "To: support@cloudnode.com\nFrom: t.sato@embedded-dev.jp\nDate: October 14\nSubject: Maintenance Inquiry\n\nI found your notice on the developer portal and wish to use your regional replication services for my embedded firmware distribution business. I am looking specifically for a way to synchronize binary files for my clients in Asia and Europe, and I wonder if your current upgrade would cover this for me. Since I work with high-security firmware, I would like the data to be encrypted during the transfer. Please reach out to me at my office number between 9:00 A.M. and 6:00 P.M. JST.\n\nThank you,\n\nTakashi Sato\nEmbeddedDev Japan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-tech-17-1",
+      "q": "According to the notice, why should customers visit the status page?",
+      "options": [
+        "To download new API documentation",
+        "To check real-time performance data",
+        "To submit a support ticket",
+        "To request a manual backup"
+      ],
+      "answer": 1,
+      "explanation": "文書1に「Visit status.cloudnode.com to see live performance logs（ライブパフォーマンスログを確認するために訪問してください）」とあります。"
+    },
+    {
+      "id": "p7-tech-17-2",
+      "q": "What is suggested about CloudNode Systems?",
+      "options": [
+        "It provides updates once a month.",
+        "It promotes its services on a developer portal.",
+        "It specializes in hardware manufacturing.",
+        "It recently closed its international offices."
+      ],
+      "answer": 1,
+      "explanation": "文書2の冒頭でSato氏が「I found your notice on the developer portal（開発者ポータルで通知を見つけました）」と述べているため、そこでの宣伝が示唆されます。"
+    },
+    {
+      "id": "p7-tech-17-3",
+      "q": "Who most likely is Mr. Sato?",
+      "options": [
+        "A database administrator",
+        "A sales representative",
+        "A security auditor",
+        "A business owner"
+      ],
+      "answer": 3,
+      "explanation": "署名に「EmbeddedDev Japan」という社名があり、自分のビジネス（my... business）のためにサービスを利用したいと述べていることから、事業主である可能性が最も高いです。"
+    },
+    {
+      "id": "p7-tech-17-4",
+      "q": "What requirement does Mr. Sato NOT mention for his data?",
+      "options": [
+        "Regional synchronization",
+        "Encrypted transfer",
+        "Legacy API support",
+        "Distribution to Europe"
+      ],
+      "answer": 2,
+      "explanation": "Sato氏は地域同期（regional replication）、暗号化（encrypted）、欧州への配布については言及していますが、旧API（Legacy API）のサポートについては求めていません。"
+    },
+    {
+      "id": "p7-tech-17-5",
+      "q": "What will Mr. Sato most likely do within 12 hours?",
+      "options": [
+        "Call a technical representative",
+        "Update his firmware binary",
+        "Speak with a support member",
+        "Visit a data center"
+      ],
+      "answer": 2,
+      "explanation": "文書1の最後に「A representative will call you within 12 hours（担当者が12時間以内に電話します）」とあり、Sato氏も電話を待っている状態であるため、担当者との会話が予想されます。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-MANU-009",
+  "title": "Production Line Maintenance",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Factory Supervisors\nFrom: Quality Control Manager\nSubject: Scheduled Upgrades to Assembly Line B\n\nPlease be informed that Assembly Line B will be temporarily shut down for hardware upgrades next Friday. These upgrades are necessary to ensure that our products meet the updated -------(131.) standards for the European market. \n\nDuring the downtime, technicians will install new automated sensors to detect defects more -------(132.). -------(133.). As a result, we expect a 15% increase in production efficiency once the line resumes operation. \n\nWe apologize for the interruption to the current output schedule. -------(134.) have any concerns regarding the adjusted deadlines, please discuss them with your department head today.\n\nBest regards,\n\nSarah Miller",
+  "questions": [
+    {
+      "id": "p6-manu-09-1",
+      "q": "No. 131",
+      "options": [
+        "safety",
+        "safely",
+        "safest",
+        "safeness"
+      ],
+      "answer": 0,
+      "explanation": "standards（基準）を修飾する名詞形容詞的用法として (A) safety（安全基準）が適切です。"
+    },
+    {
+      "id": "p6-manu-09-2",
+      "q": "No. 132",
+      "options": [
+        "accurately",
+        "accuracy",
+        "accurate",
+        "accurateness"
+      ],
+      "answer": 0,
+      "explanation": "動詞 detect（検知する）を修飾する副詞 (A) accurately（正確に）が正解です。"
+    },
+    {
+      "id": "p6-manu-09-3",
+      "q": "No. 133",
+      "options": [
+        "The cafeteria will be closed for cleaning.",
+        "These sensors have been tested extensively in Lab A.",
+        "The shipment of raw materials has been delayed.",
+        "Staff are required to wear safety goggles at all times."
+      ],
+      "answer": 1,
+      "explanation": "直前で述べた「新しいセンサー」について詳細を補足する (B) が文脈に合致した一文です。"
+    },
+    {
+      "id": "p6-manu-09-4",
+      "q": "No. 134",
+      "options": [
+        "Should you",
+        "Unless you",
+        "Provided you",
+        "Whether you"
+      ],
+      "answer": 0,
+      "explanation": "If you should have... の If が省略された倒置の形（万一〜なら）を問う頻出問題です。 (A) が正解となります。"
+    }
+  ]
+}

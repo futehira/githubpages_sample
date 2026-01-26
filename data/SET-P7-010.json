@@ -1,0 +1,91 @@
+{
+  "id": "SET-P7-010",
+  "title": "Product Catalog & Inventory Inquiry",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "TechGear Solutions - New Monitor Series\nTechGear Solutions is proud to announce the release of our 'Vision' series monitors. All monitors in this series come with a 3-year limited warranty and blue-light reduction technology. Orders placed through our business portal receive a 5% discount for bulk purchases of 5 units or more."
+    },
+    {
+      "type": "table",
+      "title": "Vision Series Model Specifications",
+      "header": [
+        "Model Number",
+        "Screen Size",
+        "Resolution",
+        "Price"
+      ],
+      "rows": [
+        [
+          "V-24S",
+          "24 inches",
+          "1080p Full HD",
+          "$150.00"
+        ],
+        [
+          "V-27P",
+          "27 inches",
+          "4K Ultra HD",
+          "$320.00"
+        ],
+        [
+          "V-32U",
+          "32 inches",
+          "4K Ultra HD",
+          "$450.00"
+        ],
+        [
+          "V-34C",
+          "34 inches (Curved)",
+          "WQHD",
+          "$550.00"
+        ]
+      ],
+      "footer": "Availability: All models in stock except V-32U (Backordered until Oct 15)."
+    },
+    {
+      "type": "text",
+      "content": "From: Sam Reed <s.reed@designcorp.com>\nTo: TechGear Sales <sales@techgear.com>\nDate: October 2\nSubject: Inquiry about Model V-32U\n\nHello, I am interested in purchasing six units of your 32-inch 4K monitor for our design team. I see on your website that they are currently on backorder. If I place the order today via your business portal, will the 5% discount still apply? Also, please confirm if the estimated shipping date of October 15 is still accurate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-010-1",
+      "q": "What feature is included in all 'Vision' series monitors?",
+      "options": [
+        "Built-in speakers",
+        "Blue-light reduction",
+        "A 5-year warranty",
+        "Touch-screen capability"
+      ],
+      "answer": 1,
+      "explanation": "文書1に'blue-light reduction technology'が含まれると記載されています。"
+    },
+    {
+      "id": "p7-010-2",
+      "q": "Which model is Sam Reed interested in?",
+      "options": [
+        "V-24S",
+        "V-27P",
+        "V-32U",
+        "V-34C"
+      ],
+      "answer": 2,
+      "explanation": "文書3の件名および「32-inch 4K monitor」という記述から、表にあるV-32Uであることがわかります。"
+    },
+    {
+      "id": "p7-010-3",
+      "q": "How much would the total be for one unit after the discount Sam Reed expects?",
+      "options": [
+        "$142.50",
+        "$304.00",
+        "$427.50",
+        "$522.50"
+      ],
+      "answer": 2,
+      "explanation": "V-32Uの定価は$450（文書2）。6台購入（5台以上）なので5%割引（文書1）が適用されます。$450 × 0.95 = $427.50 となります。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "SET-P7-012",
+  "title": "Global Tech Summit 2026",
+  "category": "Part 7",
+  "target_time_sec": 420,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Announcement: Global Tech Summit 2026\nJoin us in Tokyo from March 10-12 for the premier event for software developers. Register by January 31 to receive the 'Early Bird' discount (15% off). Regular registration continues until February 28. This year's focus is on 'The Future of Systems Programming and Cloud Security.' All workshops require pre-registration as seats are limited to 30 per session."
+    },
+    {
+      "type": "table",
+      "title": "Workshop Schedule - Day 1 (March 10)",
+      "header": [
+        "ID",
+        "Topic",
+        "Instructor",
+        "Room",
+        "Extra Fee"
+      ],
+      "rows": [
+        [
+          "WS-01",
+          "Rust for Embedded Systems",
+          "Alice Vance",
+          "Room 401",
+          "$50.00"
+        ],
+        [
+          "WS-02",
+          "Advanced Python GUI Design",
+          "Mark Thompson",
+          "Room 402",
+          "$30.00"
+        ],
+        [
+          "WS-03",
+          "AWS Security Best Practices",
+          "Kevin Lee",
+          "Room 501",
+          "$40.00"
+        ],
+        [
+          "WS-04",
+          "Node-based UI Architectures",
+          "Sarah Miller",
+          "Room 505",
+          "$35.00"
+        ]
+      ],
+      "footer": "*Note: Workshop fees are in addition to the general summit registration ($500.00)."
+    },
+    {
+      "type": "text",
+      "content": "From: Kenji Sato <k.sato@it-solutions.jp>\nTo: GTS Registration <support@techsummit.com>\nDate: January 25\nSubject: Registration Change - Order #8821\n\nHello, I registered for the summit last week to take advantage of the discount. I originally signed up for WS-02 because I am developing a desktop application. However, my project focus has shifted to microcontrollers. Could you please switch my workshop registration to the one led by Alice Vance? I understand there is a price difference and am happy to pay the balance. Also, can you confirm the room for the new session?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-012-1",
+      "q": "What is the total base registration fee if paid in February?",
+      "options": [
+        "$425.00",
+        "$450.00",
+        "$500.00",
+        "$575.00"
+      ],
+      "answer": 2,
+      "explanation": "文書1と2より、通常料金（2月中の登録）は$500.00です。1月31日までなら15%引きになりますが、質問は2月について聞いています。"
+    },
+    {
+      "id": "p7-012-2",
+      "q": "Which workshop is Mr. Sato currently registered for?",
+      "options": [
+        "Rust for Embedded Systems",
+        "Advanced Python GUI Design",
+        "AWS Security Best Practices",
+        "Node-based UI Architectures"
+      ],
+      "answer": 1,
+      "explanation": "文書3で'I originally signed up for WS-02'とあり、表のWS-02は'Advanced Python GUI Design'です。"
+    },
+    {
+      "id": "p7-012-3",
+      "q": "What is true about the workshop Mr. Sato wants to switch to?",
+      "options": [
+        "It is held in Room 402.",
+        "It is led by Sarah Miller.",
+        "It has an extra fee of $50.00.",
+        "It is about cloud security."
+      ],
+      "answer": 2,
+      "explanation": "彼が変更を希望しているのはAlice Vanceのセッション（WS-01）で、表によるとその追加費用は$50.00です。"
+    }
+  ]
+}

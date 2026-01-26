@@ -1,0 +1,49 @@
+{
+  "id": "SET-PART7-002",
+  "title": "Corporate Workshop & Feedback",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    "Document 1: Internal Memo. To: All Staff. From: HR Department. Date: May 10. Subject: Professional Development Workshop. We are pleased to announce a workshop on 'Digital Productivity' on May 25. The session will run from 9:00 AM to 12:00 PM in Conference Room B. Space is limited to 20 participants. Please register via the employee portal by May 18. A complimentary lunch will be provided afterward in the cafeteria.",
+    "Document 2: Workshop Registration List (Excerpt). Date: May 25. Instructor: Sarah Jenkins. 1. Mark Thompson (Sales) - Vegetarian. 2. Linda Garcia (Marketing) - No preference. 3. Kenji Sato (IT) - Nut allergy. 4. Sarah Miller (Accounting) - No preference. *Total registered: 18.",
+    "Document 3: Email From Kenji Sato (May 26). Subject: Workshop follow-up. Dear HR, I really enjoyed Sarah Jenkins' session yesterday. The tips on shortcut keys were especially helpful. However, I noticed that the boxed lunch provided didn't have a label for ingredients. Since I have a specific dietary restriction, I had to skip the meal. Could you ensure labels are included for the next session on June 15?"
+  ],
+  "questions": [
+    {
+      "id": "P7-002-1",
+      "q": "By what date should employees sign up for the workshop?",
+      "options": [
+        "May 10",
+        "May 18",
+        "May 25",
+        "June 15"
+      ],
+      "answer": 1,
+      "explanation": "文書1にregister via the employee portal by May 18とあるため(B)が正解。"
+    },
+    {
+      "id": "P7-002-2",
+      "q": "What is indicated about the workshop on May 25?",
+      "options": [
+        "It was held in the cafeteria.",
+        "It was attended by exactly 20 people.",
+        "It focused on digital efficiency.",
+        "It was led by an HR manager."
+      ],
+      "answer": 2,
+      "explanation": "文書1に'Digital Productivity'とあり、文書3でその内容（ショートカットキーなど）を褒めているため(C)が正解。"
+    },
+    {
+      "id": "P7-002-3",
+      "q": "Why did Mr. Sato NOT eat the lunch?",
+      "options": [
+        "He was too busy with IT tasks.",
+        "He did not like the vegetarian options.",
+        "He forgot to register his dietary needs.",
+        "He was concerned about potential allergens."
+      ],
+      "answer": 3,
+      "explanation": "文書3で、成分表示ラベルがなかったため、アレルギー（nut allergy）を懸念して食事を抜いた（skip the meal）と述べています。"
+    }
+  ]
+}

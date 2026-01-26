@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-MED-005",
+  "title": "Annual Health Check-up Notice",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Employees\nFrom: Human Resources Department\nSubject: Mandatory Annual Health Screening\n\nAs part of our commitment to employee wellness, the company is organizing its annual health screening from June 10 to June 14. All staff members are required to -------(131.) in this program. \n\nScreenings will take place in the conference room on the third floor. You can book your preferred time slot through our internal portal. -------(132.). If you cannot find a suitable time, please contact the HR coordinator before Friday. \n\nOn the day of your appointment, please remember to fast for at least eight hours -------(133.) your screening. This is necessary to ensure the accuracy of your blood test results. -------(134.). \n\nThank you for prioritizing your health.",
+  "questions": [
+    {
+      "id": "p6-med-05-1",
+      "q": "No. 131",
+      "options": [
+        "participate",
+        "participating",
+        "participation",
+        "participant"
+      ],
+      "answer": 0,
+      "explanation": "are required to の後の不定詞として動詞の原形 (A) participate（参加する）が必要です。"
+    },
+    {
+      "id": "p6-med-05-2",
+      "q": "No. 132",
+      "options": [
+        "The conference room is unavailable for meetings.",
+        "Registration is on a first-come, first-served basis.",
+        "The company gym will be closed for maintenance.",
+        "Most employees prefer to work from home on Fridays."
+      ],
+      "answer": 1,
+      "explanation": "予約システムの話をしているため、「先着順（first-come, first-served）」であるという追加情報は非常に自然な流れです。"
+    },
+    {
+      "id": "p6-med-05-3",
+      "q": "No. 133",
+      "options": [
+        "prior to",
+        "next to",
+        "aside from",
+        "owing to"
+      ],
+      "answer": 0,
+      "explanation": "「検査の前に（prior to）」絶食する必要があるという、時間的関係を示す表現が適切です。"
+    },
+    {
+      "id": "p6-med-05-4",
+      "q": "No. 134",
+      "options": [
+        "Consequently",
+        "Furthermore",
+        "However",
+        "Otherwise"
+      ],
+      "answer": 1,
+      "explanation": "絶食の指示に加え、「正確な結果を出すために」という追加理由や別の指示を補足する流れで (B) Furthermore が適しています。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-HR-002",
+  "title": "Recruitment Process Update",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Mr. Thompson,\n\nThank you for applying for the Senior Software Developer position at NexaTech Solutions. We have reviewed your application and are -------(131.) to invite you for a first-round interview. \n\nThe interview will be conducted via video conference on Thursday, October 12. During the session, you will be asked to demonstrate your -------(132.) in C++ and Python through a brief coding test. \n\n-------(133.). This will give us a better understanding of how you approach complex architecture designs. -------(134.), please send us a list of three professional references by the end of this week.\n\nWe look forward to speaking with you soon.",
+  "questions": [
+    {
+      "id": "p6-hr-02-1",
+      "q": "No. 131",
+      "options": [
+        "pleased",
+        "pleasing",
+        "pleasure",
+        "pleasant"
+      ],
+      "answer": 0,
+      "explanation": "be動詞の後の補語として、感情を表す過去分詞 (A) pleased が適切です。"
+    },
+    {
+      "id": "p6-hr-02-2",
+      "q": "No. 132",
+      "options": [
+        "proficiency",
+        "agreement",
+        "location",
+        "permission"
+      ],
+      "answer": 0,
+      "explanation": "コーディングテストを通じて「習熟度（proficiency）」を証明するという文脈が最適です。"
+    },
+    {
+      "id": "p6-hr-02-3",
+      "q": "No. 133",
+      "options": [
+        "Your resume was very impressive.",
+        "We have already filled the position.",
+        "The test will last approximately 30 minutes.",
+        "The office is currently under construction."
+      ],
+      "answer": 2,
+      "explanation": "直前の「コーディングテスト」についての詳細説明である (C) が最も自然な流れです。"
+    },
+    {
+      "id": "p6-hr-02-4",
+      "q": "No. 134",
+      "options": [
+        "Consequently",
+        "Additionally",
+        "Nevertheless",
+        "Instead"
+      ],
+      "answer": 1,
+      "explanation": "面接の案内に加えて「推薦人のリスト送付」を追加で依頼しているため、(B) Additionally が正解です。"
+    }
+  ]
+}

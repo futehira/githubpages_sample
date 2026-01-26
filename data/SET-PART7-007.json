@@ -1,0 +1,61 @@
+{
+  "id": "SET-PART7-007",
+  "title": "IT Job Recruitment",
+  "category": "Part 7",
+  "target_time_sec": 420,
+  "passages": [
+    "Document 1: Job Opening: Cloud Systems Architect at Nexus Tech. Responsibilities: Design and maintain AWS-based infrastructure, optimize Python scripts for automation, and lead security audits. Requirements: Minimum 5 years of experience in cloud computing. Certification in AWS Solutions Architect is preferred.",
+    "Document 2: Email From Sophia Rossi (July 15). Subject: Application for Cloud Systems Architect. To: Hiring Team, Nexus Tech. I am writing to express my interest in the position. I have 6 years of experience in backend development using Python and have spent the last 3 years specializing in AWS migrations. While I do not currently hold the specific certification mentioned, I am scheduled to take the exam next month.",
+    "Document 3: Internal HR Note (July 18). Candidate: Sophia Rossi. Status: Initial Screen Passed. Note: Strong Python background. Although she lacks the AWS certificate, her 6 years of total experience meets our minimum requirement. Let's schedule a technical interview for the week of July 25. Ask her about her experience with 'security audits' during the talk."
+  ],
+  "questions": [
+    {
+      "id": "P7-007-1",
+      "q": "What is one task the Cloud Systems Architect will perform?",
+      "options": [
+        "Designing office layouts",
+        "Writing Python scripts",
+        "Marketing AWS services",
+        "Managing financial budgets"
+      ],
+      "answer": 1,
+      "explanation": "文書1のResponsibilitiesにoptimize Python scripts（Pythonスクリプトの最適化）が含まれています。"
+    },
+    {
+      "id": "P7-007-2",
+      "q": "What is true about Ms. Rossi's qualifications?",
+      "options": [
+        "She has exactly 5 years of experience.",
+        "She is already a certified AWS Architect.",
+        "She has more than the minimum required experience.",
+        "She lacks experience with Python."
+      ],
+      "answer": 2,
+      "explanation": "要件は5年（文書1）ですが、彼女は6年の経験がある（文書2）ため、最低要件を満たしています。"
+    },
+    {
+      "id": "P7-007-3",
+      "q": "When will the technical interview likely take place?",
+      "options": [
+        "July 15",
+        "July 18",
+        "The last week of July",
+        "Next month"
+      ],
+      "answer": 2,
+      "explanation": "文書3でthe week of July 25（7月25日の週）に面接を予定するとあります。"
+    },
+    {
+      "id": "P7-007-4",
+      "q": "What will the interviewers specifically ask Ms. Rossi about?",
+      "options": [
+        "Her exam date",
+        "Her migration projects",
+        "Security audits",
+        "Backend development"
+      ],
+      "answer": 2,
+      "explanation": "文書3の最後にAsk her about her experience with 'security audits'と指示があります。"
+    }
+  ]
+}

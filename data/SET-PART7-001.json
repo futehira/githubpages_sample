@@ -1,0 +1,61 @@
+{
+  "id": "SET-PART7-001",
+  "title": "Sparky Paints Service & Order",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    "Document 1: Sparky Paints, Inc. makes it easy to select the right colors for your home. Our color samples are three times larger than typical samples and come with self-adhesive backing. We'll ship your chosen colors to arrive at your home within 3-5 business days, or within 2 business days for an additional expedited shipping fee.",
+    "Document 2: Order Summary #3397. Customer: Arun Phan. Items: Caspian Blue (sample - $0.00), Deep Sea Blue (sample - $0.00), Stormy Blue (sample - $0.00), Misty Gray SP 944 (2 Gallons - $50.00). Expedited shipping: $18.99. Total: $72.99.",
+    "Document 3: Email From Arun Phan (March 12). Subject: Order #3397. Thanks for sending my order—it arrived this morning. Unfortunately, I received SP 945 instead of SP 944. They appear right next to each other on your Web site. Could you send me the correct paint, and additional samples close in color to SP 722?"
+  ],
+  "questions": [
+    {
+      "id": "P7-001-1",
+      "q": "What is mentioned as a benefit of Sparky Paints' samples?",
+      "options": [
+        "They are provided in 15 different shades.",
+        "They can be stuck directly onto walls.",
+        "They are smaller than standard samples.",
+        "They are delivered within 24 hours."
+      ],
+      "answer": 1,
+      "explanation": "文書1にself-adhesive backing（粘着式の裏地）とあるため(B)が正解。"
+    },
+    {
+      "id": "P7-001-2",
+      "q": "Which color did Mr. Phan NOT receive correctly?",
+      "options": [
+        "Caspian Blue",
+        "Deep Sea Blue",
+        "Stormy Blue",
+        "Misty Gray"
+      ],
+      "answer": 3,
+      "explanation": "文書3でSP 944(Misty Gray)の代わりにSP 945を受け取ったと述べています。"
+    },
+    {
+      "id": "P7-001-3",
+      "q": "According to the documents, when was the order most likely placed?",
+      "options": [
+        "March 5",
+        "March 8",
+        "March 10",
+        "March 12"
+      ],
+      "answer": 2,
+      "explanation": "文書2でExpedited shippingを選択しており、文書1でそれは2営業日(2 business days)で届くとあります。文書3で3月12日の朝に届いたと言っているので、その2営業日前の3月10日(B)が正解です。"
+    },
+    {
+      "id": "P7-001-4",
+      "q": "What kind of samples does Mr. Phan want to receive now?",
+      "options": [
+        "Colors similar to Caspian Blue",
+        "Colors similar to Deep Sea Blue",
+        "Colors similar to Stormy Blue",
+        "Colors similar to Ocean Waves"
+      ],
+      "answer": 2,
+      "explanation": "文書3の末尾でSP 722に似た色のサンプルを求めています。文書2よりSP 722はStormy Blueです。"
+    }
+  ]
+}

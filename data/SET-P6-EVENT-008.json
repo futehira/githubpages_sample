@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-EVENT-008",
+  "title": "Invitation to Speak",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Dr. Arisaka,\n\nOn behalf of the International AI Association, I am writing to invite you to be the keynote speaker at our annual summit this September. We were deeply impressed by your recent -------(131.) on machine learning efficiency. \n\nThe summit will be held in Singapore, and we expect over 500 industry leaders to attend. -------(132.). We would be honored if you could share your insights during a 45-minute presentation. \n\nAll travel and accommodation expenses -------(133.) by the association. Additionally, a modest honorarium will be provided for your time. -------(134.), please let us know your decision by the end of the month.\n\nSincerely,\n\nMark Chen\nEvent Coordinator",
+  "questions": [
+    {
+      "id": "p6-event-08-1",
+      "q": "No. 131",
+      "options": [
+        "published",
+        "publication",
+        "publicly",
+        "publicize"
+      ],
+      "answer": 1,
+      "explanation": "所有格 your の後には名詞が必要です。ここでは「出版物・論文」を指す (B) publication が正解です。"
+    },
+    {
+      "id": "p6-event-08-2",
+      "q": "No. 132",
+      "options": [
+        "The registration fee has been increased.",
+        "This event focuses on the latest software trends.",
+        "You have already attended this conference before.",
+        "The venue is located near the airport."
+      ],
+      "answer": 1,
+      "explanation": "招待するカンファレンスの内容（テーマ）を補足する (B) が最も適しています。"
+    },
+    {
+      "id": "p6-event-08-3",
+      "q": "No. 133",
+      "options": [
+        "will cover",
+        "are covering",
+        "will be covered",
+        "covers"
+      ],
+      "answer": 2,
+      "explanation": "「費用」は「カバーされる（支払われる）」側なので、未来の受動態 (C) が正解です。"
+    },
+    {
+      "id": "p6-event-08-4",
+      "q": "No. 134",
+      "options": [
+        "Instead",
+        "Furthermore",
+        "Therefore",
+        "Initially"
+      ],
+      "answer": 2,
+      "explanation": "これまでの提案を踏まえ、「したがって（Therefore）」返事をください、という結びになります。"
+    }
+  ]
+}

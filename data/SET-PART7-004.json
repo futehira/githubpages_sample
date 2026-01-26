@@ -1,0 +1,49 @@
+{
+  "id": "SET-PART7-004",
+  "title": "Logistics & Product Damage Claim",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    "Document 1: Global Express Shipping Policy. Standard Delivery: 5-7 days ($5.00). Priority Shipping: 2-3 days ($15.00). Overnight: Next business day ($30.00). *Note: All fragile items are insured up to $200 at no extra cost. For claims exceeding this amount, additional insurance must be purchased at the time of checkout.",
+    "Document 2: Order Confirmation. Order Date: October 12. Customer: Elena Rossi. Item: Vintage Glass Vase ($250.00). Shipping: Priority ($15.00). Total: $265.00. Tracking Status: Delivered - October 15.",
+    "Document 3: Email From Elena Rossi (October 16). To: Customer Support. Subject: Damaged Item - Order #ER992. I received my order yesterday as scheduled. However, when I opened the box, the vase was cracked. I remember paying for priority shipping to ensure quick delivery, but I am concerned about the refund. Since the item cost $250, will I be fully reimbursed? Please let me know the steps to file a claim."
+  ],
+  "questions": [
+    {
+      "id": "P7-004-1",
+      "q": "How long does Priority Shipping typically take?",
+      "options": [
+        "Next business day",
+        "2-3 days",
+        "5-7 days",
+        "10-12 days"
+      ],
+      "answer": 1,
+      "explanation": "文書1のPriority Shippingの項目に2-3 daysと記載されています。"
+    },
+    {
+      "id": "P7-004-2",
+      "q": "What is the problem reported by Ms. Rossi?",
+      "options": [
+        "The delivery was late.",
+        "The item was missing from the box.",
+        "The item was broken upon arrival.",
+        "The shipping fee was too high."
+      ],
+      "answer": 2,
+      "explanation": "文書3でthe vase was cracked（花瓶にひびが入っていた）と報告しています。"
+    },
+    {
+      "id": "P7-004-3",
+      "q": "What is implied about Ms. Rossi's refund?",
+      "options": [
+        "She will receive the full $250 automatically.",
+        "She might not get the full amount because she didn't buy extra insurance.",
+        "She will only be refunded for the shipping cost.",
+        "She is not eligible for any insurance."
+      ],
+      "answer": 1,
+      "explanation": "文書1で、割れ物は追加料金なしで$200まで保険がかかるとありますが、$200を超える場合は追加保険が必要とあります。彼女の花瓶は$250で、追加保険を購入した記述がないため、全額は戻らない可能性があります。"
+    }
+  ]
+}

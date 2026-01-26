@@ -1,0 +1,91 @@
+{
+  "id": "SET-P7-IOT-019",
+  "title": "IoT Device Management & Security Update",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "EdgeLink IoT Solutions - Service Tiers\n- Lite Plan: $5.00/device per month (Up to 100 devices)\n- Pro Plan: $3.50/device per month (101 to 500 devices)\n- Enterprise: Custom pricing (Over 500 devices)\n\n*Firmware Update (OTA) Fees: First 10MB per month is free. Each additional MB is charged at $0.05 per device.\n*Security Add-on: $1.00/device per month. Provides automatic mitigation for known vulnerabilities (CVEs)."
+    },
+    {
+      "type": "table",
+      "title": "Fleet Status Report - Project 'Aqua-Sense'",
+      "header": [
+        "Device Model",
+        "Quantity",
+        "Firmware Version",
+        "Last Update Size"
+      ],
+      "rows": [
+        [
+          "AS-100 (Sensor)",
+          "80",
+          "v3.2.0",
+          "8 MB"
+        ],
+        [
+          "AS-200 (Gateway)",
+          "45",
+          "v3.2.0",
+          "15 MB"
+        ]
+      ],
+      "footer": "Total Managed Devices: 125 | Account Standing: Active"
+    },
+    {
+      "type": "text",
+      "content": "From: T. Sato <t.sato@embedded-dev.jp>\nTo: EdgeLink Support\nDate: February 12\n\nWe have identified a critical security vulnerability (CVE-2026-102) affecting the v3.2.0 firmware on all our 125 devices. We need to deploy an emergency patch (v3.2.1, size: 5MB) by Friday. \n\nI have two questions:\n1. Since our total device count recently changed, will our next bill reflect the lower per-device rate automatically?\n2. We currently do not subscribe to the Security Add-on. If we activate it today, will the system automatically handle the deployment of this CVE patch, or do we still need to manage the OTA process manually for the 5MB file?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-iot-19-1",
+      "q": "What is the monthly base rate per device that the company is currently eligible for?",
+      "options": [
+        "$1.00",
+        "$3.50",
+        "$5.00",
+        "Custom pricing"
+      ],
+      "answer": 1,
+      "explanation": "文書2のフッターに「Total Managed Devices: 125」とあります。文書1の料金表では、101〜500台は「Pro Plan」の$3.50が適用されるため、(B)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-2",
+      "q": "How much was the additional OTA fee for one AS-200 unit in the last update?",
+      "options": [
+        "$0.25",
+        "$0.50",
+        "$0.75",
+        "$1.25"
+      ],
+      "answer": 0,
+      "explanation": "文書2より、AS-200のアップデートサイズは15MBでした。文書1の規定では、最初の10MBは無料で、超過分は1MBあたり$0.05です。超過分は 15 - 10 = 5MB なので、5 × $0.05 = $0.25 となり、(A)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-3",
+      "q": "Why is Mr. Sato contacting EdgeLink Support?",
+      "options": [
+        "To report a hardware defect in the AS-100 model",
+        "To request a refund for an incorrect billing tier",
+        "To seek clarification on security patch procedures",
+        "To cancel the subscription for the Aqua-Sense project"
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）で、脆弱性（CVE）へのパッチを当てる際に、セキュリティアドオンがどのように機能するか（自動か手動か）を確認しているため、(C)が正解です。"
+    },
+    {
+      "id": "p7-iot-19-4",
+      "q": "What is implied about the company's current account configuration?",
+      "options": [
+        "It already has the Security Add-on enabled.",
+        "It was recently charged for 150 devices.",
+        "It is running outdated firmware on its gateways.",
+        "It will pay more than $5.00 per device next month."
+      ],
+      "answer": 2,
+      "explanation": "メールで「v3.2.0に脆弱性が見つかった」「緊急パッチ(v3.2.1)を適用する必要がある」と述べており、文書2でも現行バージョンがv3.2.0であることが示されているため、(C)が正解です。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "SET-P7-016",
+  "title": "Equipment Maintenance Strategy",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Industrial Sensor Maintenance Parts\n- Optical Sensor (Type-A): $400\n- Pressure Valve (Type-B): $250\n- Controller Module (Type-C): $1,200\n*Orders over $1,000 receive a 10% discount.\n*Expedited shipping (next day): $50 flat rate."
+    },
+    {
+      "type": "table",
+      "title": "Inspection Report - Line 3",
+      "header": [
+        "Location",
+        "Component",
+        "Status",
+        "Recommendation"
+      ],
+      "rows": [
+        [
+          "Station 1",
+          "Optical Sensor",
+          "Fair",
+          "Monitor only"
+        ],
+        [
+          "Station 4",
+          "Optical Sensor",
+          "Critical",
+          "Replace immediately"
+        ],
+        [
+          "Station 7",
+          "Controller Module",
+          "Poor",
+          "Replace soon"
+        ]
+      ],
+      "footer": "Technician: M. Tanaka | Date: Feb 5"
+    },
+    {
+      "type": "text",
+      "content": "From: Production Mgr\nTo: Purchasing Dept\nDate: Feb 6\n\nFollowing Tanaka-san's report, please order all 'Recommendation: Replace' items for Line 3 today. Use next-day shipping as Station 4 is currently down. We have been informed that the Controller Module (Type-C) is out of stock until next week, so just order the sensor for now. We will handle the module in a separate budget next month."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-016-1",
+      "q": "What is the primary reason for the urgent order?",
+      "options": [
+        "A 10% discount is expiring today.",
+        "One part of the production line is not functioning.",
+        "The technician requested an upgrade to Type-C modules.",
+        "The European safety standards have changed."
+      ],
+      "answer": 1,
+      "explanation": "文書3に「Station 4 is currently down（第4ステーションは現在停止中）」とあり、それに伴って「Replace immediately」の部品を急ぎで注文しているため、(B)が正解です。"
+    },
+    {
+      "id": "p7-016-2",
+      "q": "How much will the company pay for the order made on Feb 6?",
+      "options": [
+        "$400",
+        "$450",
+        "$1,080",
+        "$1,130"
+      ],
+      "answer": 1,
+      "explanation": "文書3より「現時点ではセンサー（$400）のみ注文」し、「翌日配送（$50）」を利用します。合計 $450 です。モジュール（$1,200）は在庫切れで注文を見送ったため、10%割引（$1,000以上）は適用されません。"
+    },
+    {
+      "id": "p7-016-3",
+      "q": "What is indicated about the Controller Module?",
+      "options": [
+        "It will be replaced immediately at Station 1.",
+        "It is no longer being manufactured.",
+        "It will not be purchased in the current order.",
+        "It is eligible for a volume discount if ordered with valves."
+      ],
+      "answer": 2,
+      "explanation": "文書3の「so just order the sensor for now（今はセンサーだけ注文して）」および「module in a separate budget next month（モジュールは来月の別予算で）」という記述から、今回の注文には含まれないことがわかります。"
+    }
+  ]
+}

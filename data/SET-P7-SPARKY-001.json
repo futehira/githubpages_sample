@@ -1,0 +1,103 @@
+{
+  "id": "SET-P7-SPARKY-001",
+  "title": "Sparky Paints Triple Passage (Set A)",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Sparky Paints, Inc.\nSparky Paints, Inc., makes it easy to select the right colors for your home. Browse through hundreds of colors on our Web site, www.sparkypaints.com. Select your top colors, and we'll send free samples right to your door. Our color samples are three times larger than typical samples found in home-improvement stores and come with self-adhesive backing, allowing you to adhere them to your walls so you can easily see how colors will coordinate in your home. When you're ready to begin painting, simply select your chosen colors online, and we'll ship the paint of your choice to arrive at your home within 3-5 business days, or within 2 business days for an additional expedited shipping fee.\n\n*Actual colors may differ slightly from what appears on your monitor. For this reason, we recommend ordering several samples in similar shades."
+    },
+    {
+      "type": "table",
+      "title": "Order Summary #3397 - Customer: Arun Phan",
+      "header": [
+        "Item",
+        "Size",
+        "Quantity",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Caspian Blue SP 237",
+          "n/a",
+          "1",
+          "$0.00"
+        ],
+        [
+          "Deep Sea Blue SP 298",
+          "n/a",
+          "1",
+          "$0.00"
+        ],
+        [
+          "Stormy Blue SP 722",
+          "n/a",
+          "1",
+          "$0.00"
+        ],
+        [
+          "Misty Gray SP 944",
+          "Gallon",
+          "2",
+          "$50.00"
+        ]
+      ],
+      "footer": "Tax (8 percent): $4.00 | Expedited shipping: $18.99 | Total: $72.99"
+    },
+    {
+      "type": "text",
+      "content": "From: Arun Phan <arun.phan@tnet.com>\nTo: Customer Support <support@sparkypaints.com>\nDate: March 12\nSubject: Order #3397\n\nHello,\nThanks for sending my order #3397—it arrived this morning. Unfortunately, the paint was not the one I had asked for. I had selected color SP 944 but received SP 945 (Ocean Waves). They appear right next to each other on your Web site, so the two may have been confused at your end. Could you send me the correct paint, along with additional samples that are close in color to SP 722? That sample worked well in my house; the others looked too green on my walls.\n\nThank you,\nArun Phan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-sparky-1-1",
+      "q": "What is mentioned as a unique feature of Sparky Paints' samples?",
+      "options": [
+        "They are provided in 100 different shades.",
+        "They can be attached directly to walls.",
+        "They are smaller than typical store samples.",
+        "They are delivered within 24 hours."
+      ],
+      "answer": 1,
+      "explanation": "Document 1に'come with self-adhesive backing, allowing you to adhere them to your walls'（粘着式の裏地があり壁に貼れる）とあります。"
+    },
+    {
+      "id": "p7-sparky-1-2",
+      "q": "According to the documents, when was the order #3397 most likely placed?",
+      "options": [
+        "March 5",
+        "March 8",
+        "March 10",
+        "March 12"
+      ],
+      "answer": 2,
+      "explanation": "Document 3で3月12日の朝に届いたとあり、Document 2で'Expedited shipping'を選択しています。Document 1よりお急ぎ便は2営業日で届くため、12日の2日前である3月10日が正解です。"
+    },
+    {
+      "id": "p7-sparky-1-3",
+      "q": "What problem does Mr. Phan report in his email?",
+      "options": [
+        "The total price was calculated incorrectly.",
+        "The shipping fee was higher than expected.",
+        "The wrong color of paint was delivered.",
+        "The samples were too small for his project."
+      ],
+      "answer": 2,
+      "explanation": "Document 3で'I had selected color SP 944 but received SP 945'と述べており、違う色が届いたことを報告しています。"
+    },
+    {
+      "id": "p7-sparky-1-4",
+      "q": "Which color sample did Mr. Phan like?",
+      "options": [
+        "Caspian Blue",
+        "Deep Sea Blue",
+        "Stormy Blue",
+        "Ocean Waves"
+      ],
+      "answer": 2,
+      "explanation": "Document 3の末尾で'SP 722 worked well'とあり、Document 2の表でSP 722は'Stormy Blue'であることがわかります。"
+    }
+  ]
+}

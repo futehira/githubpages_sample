@@ -1,0 +1,85 @@
+{
+  "id": "SET-P7-014",
+  "title": "Logistics Inquiry",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Swift-Logistics Shipping Rates\nDomestic shipping rates are calculated based on weight and speed. \n- Economy (5-7 days): $0.50 per lb\n- Standard (3-5 days): $1.20 per lb\n- Express (1-2 days): $2.50 per lb\n*A flat $10 handling fee applies to all orders containing fragile electronic equipment."
+    },
+    {
+      "type": "table",
+      "title": "Shipment Inventory - Order #SL-4001",
+      "header": [
+        "Quantity",
+        "Item Description",
+        "Weight (Total)",
+        "Fragile?"
+      ],
+      "rows": [
+        [
+          "2",
+          "Office Chairs",
+          "40 lbs",
+          "No"
+        ],
+        [
+          "1",
+          "High-End Workstation (PC)",
+          "25 lbs",
+          "Yes"
+        ],
+        [
+          "3",
+          "External Monitors",
+          "30 lbs",
+          "Yes"
+        ]
+      ],
+      "footer": "Total Weight: 95 lbs | Shipping Method Selected: Standard"
+    },
+    {
+      "type": "text",
+      "content": "From: Shipping Team <team@swift-logistics.com>\nTo: Customer <j.doe@tech-startup.com>\nDate: January 10\n\nWe are processing your order #SL-4001. We noticed that your shipment includes 4 fragile electronic items. Please be aware that our 'Standard' method currently has a 1-day delay due to weather. If you wish to upgrade to 'Express' to ensure your workstation arrives by Friday, please let us know by 3:00 PM today. The handling fee is already included in your initial quote."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-014-1",
+      "q": "How much is the shipping rate per pound for the method the customer originally selected?",
+      "options": [
+        "$0.50",
+        "$1.20",
+        "$2.50",
+        "$10.00"
+      ],
+      "answer": 1,
+      "explanation": "文書2で'Standard'を選択しており、文書1よりStandardの料金は$1.20 per lbです。"
+    },
+    {
+      "id": "p7-014-2",
+      "q": "Which items in the shipment are considered fragile electronics?",
+      "options": [
+        "Office Chairs and PC",
+        "PC and External Monitors",
+        "Only the Office Chairs",
+        "All items in the list"
+      ],
+      "answer": 1,
+      "explanation": "文書2の表で'Fragile?'がYesになっているのはPCとモニターです。"
+    },
+    {
+      "id": "p7-014-3",
+      "q": "What is the main reason the shipping team contacted the customer?",
+      "options": [
+        "To report a broken item",
+        "To suggest a shipping upgrade due to weather",
+        "To ask for the weight of the monitors",
+        "To inform the customer that the handling fee was missed"
+      ],
+      "answer": 1,
+      "explanation": "文書3で天候による遅延を伝え、Expressへのアップグレード（upgrade to Express）を提案しています。"
+    }
+  ]
+}

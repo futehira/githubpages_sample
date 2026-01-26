@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-TRAVEL-007",
+  "title": "Reservation Amendment",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Mr. Yamamoto,\n\nWe are writing to confirm that your reservation at the Grand Plaza Hotel has been -------(131.) as requested. Your original checkout date of May 12 has been extended to May 14. \n\nPlease note that due to high demand during the conference season, we have moved you to a Deluxe Suite for the final two nights. -------(132.). We have waived the additional upgrade fee as a gesture of our appreciation for your loyalty. \n\nHowever, please be aware that breakfast is -------(133.) included in the new suite rate. -------(134.), you will need to pay a small surcharge if you wish to dine at our restaurant. \n\nWe look forward to welcoming you to London.",
+  "questions": [
+    {
+      "id": "p6-travel-07-1",
+      "q": "No. 131",
+      "options": [
+        "modify",
+        "modifying",
+        "modified",
+        "modification"
+      ],
+      "answer": 2,
+      "explanation": "has been の後の受動態として過去分詞 (C) modified が正解です。"
+    },
+    {
+      "id": "p6-travel-07-2",
+      "q": "No. 132",
+      "options": [
+        "Your original room was no longer available.",
+        "The hotel restaurant is closed for renovations.",
+        "We hope you enjoy the view of the city.",
+        "Parking is available for an extra charge."
+      ],
+      "answer": 0,
+      "explanation": "「別の部屋（スイート）に移動した」理由として、元の部屋が空いていなかったことを述べる (A) が最も自然です。"
+    },
+    {
+      "id": "p6-travel-07-3",
+      "q": "No. 133",
+      "options": [
+        "no longer",
+        "almost",
+        "ever",
+        "highly"
+      ],
+      "answer": 0,
+      "explanation": "文脈から「（以前は含まれていたが）もはや含まれていない（no longer）」という否定のニュアンスが適切です。"
+    },
+    {
+      "id": "p6-travel-07-4",
+      "q": "No. 134",
+      "options": [
+        "Consequently",
+        "Similarly",
+        "Nevertheless",
+        "Otherwise"
+      ],
+      "answer": 0,
+      "explanation": "「朝食が含まれない」という原因に対し、「結果として（Consequently）追加料金が必要」という流れになります。"
+    }
+  ]
+}
