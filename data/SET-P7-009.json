@@ -1,0 +1,91 @@
+{
+  "id": "SET-P7-009",
+  "title": "Quarterly Sales Meeting & Catering",
+  "category": "Part 7",
+  "target_time_sec": 420,
+  "passages": [
+    {
+      "type": "text",
+      "content": "MEMORANDUM\nTo: Department Heads\nFrom: Julia Vance, Administrative Director\nDate: September 5\nSubject: Quarterly Sales Meeting\n\nOur next quarterly meeting is scheduled for September 20. This time, we will be hosting it at the Lakeside Conference Center to accommodate our growing team. Please submit your finalized attendee lists by September 12. As usual, lunch will be provided. If any of your team members have specific dietary requirements, please indicate them on the signup sheet."
+    },
+    {
+      "type": "table",
+      "title": "Catering Options - Healthy Bites Catering",
+      "header": [
+        "Package Name",
+        "Description",
+        "Price per Person",
+        "Minimum Order"
+      ],
+      "rows": [
+        [
+          "Basic Deli",
+          "Assorted sandwiches and chips",
+          "$12.00",
+          "10 people"
+        ],
+        [
+          "Executive",
+          "Hot pasta, salad, and breadsticks",
+          "$18.00",
+          "15 people"
+        ],
+        [
+          "Wellness",
+          "Grilled chicken, quinoa, and fruit",
+          "$22.00",
+          "10 people"
+        ],
+        [
+          "Premium Seafood",
+          "Grilled salmon and roasted vegetables",
+          "$28.00",
+          "20 people"
+        ]
+      ],
+      "footer": "*Note: All packages include bottled water and coffee. 10% service charge added to orders over 25 people."
+    },
+    {
+      "type": "text",
+      "content": "From: Julia Vance <j.vance@corp.com>\nTo: Healthy Bites Catering <orders@healthybites.com>\nDate: September 13\nSubject: Order for Sep 20\n\nHello, I would like to place an order for the Sales Meeting on September 20. We have 30 people attending. We've decided to go with the 'Wellness' package this time. However, five of our attendees do not eat meat. Could you substitute the chicken with grilled tofu for those five meals? Please send me the final invoice including the service charge."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-009-1",
+      "q": "Why is the meeting being held at the Lakeside Conference Center?",
+      "options": [
+        "It is closer to the headquarters.",
+        "The current office is under renovation.",
+        "To provide more space for a larger staff.",
+        "It offers better catering services."
+      ],
+      "answer": 2,
+      "explanation": "文書1に'accommodate our growing team'（成長するチームに対応するため）とあるため(C)が正解。"
+    },
+    {
+      "id": "p7-009-2",
+      "q": "What is the base price per person for the meal Julia Vance ordered?",
+      "options": [
+        "$12.00",
+        "$18.00",
+        "$22.00",
+        "$28.00"
+      ],
+      "answer": 2,
+      "explanation": "文書3で'Wellness'パッケージを選択しており、文書2の表からその価格は$22.00だとわかります。"
+    },
+    {
+      "id": "p7-009-3",
+      "q": "How much of a service charge will be added to the order?",
+      "options": [
+        "5 percent",
+        "8 percent",
+        "10 percent",
+        "15 percent"
+      ],
+      "answer": 2,
+      "explanation": "文書3で30名（30 people）の注文をしており、文書2の脚注（footer）に'orders over 25 people'は10%のサービス料がかかるとあるため(C)が正解。"
+    }
+  ]
+}

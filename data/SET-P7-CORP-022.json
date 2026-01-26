@@ -1,0 +1,103 @@
+{
+  "id": "SET-P7-CORP-022",
+  "title": "Corporate Wellness Program & Reimbursement",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Global-Fit Corporate Wellness Policy\nAll full-time employees are eligible for the following monthly reimbursements:\n- Gym Membership: 50% of monthly fee (Up to $40)\n- Group Classes (Yoga/Pilates): $15 per session (Up to 4 sessions per month)\n- Nutrition Coaching: $30 per session (Max 1 session per month)\n\n*Eligibility Requirement: To receive reimbursement, employees must submit a digital receipt and a 'Proof of Attendance' form signed by the facility manager.\n*Deadline: Submissions must be received by the 5th of the following month. Late submissions will be processed in the next billing cycle with a 10% administrative deduction."
+    },
+    {
+      "type": "table",
+      "title": "Employee Activity Log - March (Employee: Elena Rossi)",
+      "header": [
+        "Date",
+        "Activity Type",
+        "Provider",
+        "Cost Paid"
+      ],
+      "rows": [
+        [
+          "March 5",
+          "Monthly Gym Membership",
+          "City Fitness",
+          "$90"
+        ],
+        [
+          "March 12",
+          "Yoga Class",
+          "Zen Studio",
+          "$25"
+        ],
+        [
+          "March 19",
+          "Yoga Class",
+          "Zen Studio",
+          "$25"
+        ],
+        [
+          "March 26",
+          "Nutrition Coaching",
+          "Healthy Life",
+          "$50"
+        ]
+      ],
+      "footer": "Note: Zen Studio was closed for renovation on March 26. The nutrition session was held online."
+    },
+    {
+      "type": "text",
+      "content": "From: Elena Rossi <e.rossi@globalcorp.com>\nTo: HR Benefits Dept\nDate: April 7\n\nI am submitting my March receipts today. I apologize for the delay, as I was waiting for the signed form from Zen Studio, which finally arrived yesterday. Please note that for my nutrition coaching on March 26, the facility manager could not sign the form in person because it was a virtual session. Instead, I have attached the email confirmation from the coach. I hope this suffices for the full $30 reimbursement."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-corp-22-1",
+      "q": "What is the maximum gym membership reimbursement Elena can receive for March?",
+      "options": [
+        "$40",
+        "$45",
+        "$50",
+        "$90"
+      ],
+      "answer": 0,
+      "explanation": "文書1によると、ジム会費は「費用の50%（最大$40）」です。Elenaは$90支払っていますが（文書2）、上限設定があるため、受取額は$40となります。"
+    },
+    {
+      "id": "p7-corp-22-2",
+      "q": "What problem did Elena face with her nutrition coaching reimbursement?",
+      "options": [
+        "The session cost more than the allowed limit.",
+        "She exceeded the maximum number of sessions allowed.",
+        "She could not obtain a physical signature for the session.",
+        "The session took place at a facility under renovation."
+      ],
+      "answer": 2,
+      "explanation": "メール（文書3）に「the facility manager could not sign the form in person because it was a virtual session（オンラインセッションだったので直接署名をもらえなかった）」とあります。これを「physical signature（物理的な署名）」が得られなかったと言い換えた(C)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-3",
+      "q": "According to the policy, what will happen to Elena's March reimbursement request?",
+      "options": [
+        "It will be rejected because it was submitted after April 5.",
+        "It will be reduced by 10% due to the late submission.",
+        "It will be processed immediately without any deductions.",
+        "It will be approved once she provides the signed yoga form."
+      ],
+      "answer": 1,
+      "explanation": "文書1の締切（Deadline）は「翌月の5日まで」です。Elenaが提出したのは4月7日（文書3）なので、遅延扱いとなります。文書1の規定により、10%の事務手数料が差し引かれるため、(B)が正解です。"
+    },
+    {
+      "id": "p7-corp-22-4",
+      "q": "How much total reimbursement is Elena originally eligible for if there were no late fees or signature issues?",
+      "options": [
+        "$85",
+        "$100",
+        "$110",
+        "$120"
+      ],
+      "answer": 1,
+      "explanation": "ジム：$40（上限）、ヨガ：$15×2回=$30、栄養指導：$30（上限）。合計 $40 + $30 + $30 = $100 です。"
+    }
+  ]
+}

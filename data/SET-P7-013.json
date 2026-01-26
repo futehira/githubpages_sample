@@ -1,0 +1,91 @@
+{
+  "id": "SET-P7-013",
+  "title": "Investment Portfolio Update",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Skyline Asset Management - Monthly Newsletter\nAs of February 2026, the market has shown strong growth in the technology sector. Under the new tax-free investment regulations, individuals can now contribute up to $20,000 annually to their growth accounts. We recommend reviewing your portfolio to ensure it aligns with your long-term goals. Please note our upcoming webinar on 'US Treasury Bonds' scheduled for February 20."
+    },
+    {
+      "type": "table",
+      "title": "Customer Portfolio Summary: Mr. Robert Chen",
+      "header": [
+        "Asset Name",
+        "Type",
+        "Current Value",
+        "Monthly Change"
+      ],
+      "rows": [
+        [
+          "Global Tech Fund",
+          "Mutual Fund",
+          "$45,000",
+          "+5.2%"
+        ],
+        [
+          "Secure Bonds B",
+          "Fixed Income",
+          "$12,000",
+          "-0.1%"
+        ],
+        [
+          "S&P 500 ETF",
+          "Index Fund",
+          "$33,000",
+          "+3.8%"
+        ],
+        [
+          "Cash Reserve",
+          "Savings",
+          "$10,000",
+          "0.0%"
+        ]
+      ],
+      "footer": "Total Portfolio Value: $100,000 | Risk Profile: Moderate"
+    },
+    {
+      "type": "text",
+      "content": "From: Robert Chen <r.chen@email.com>\nTo: Skyline Support <help@skyline-asset.com>\nDate: February 5\nSubject: Rebalancing my portfolio\n\nI read your newsletter regarding the growth in tech. Given that my Global Tech Fund has performed so well, I'd like to move half of my Cash Reserve into it to maximize my gains. Also, I am very interested in the US Treasury Bonds mentioned. Can you tell me if 'Secure Bonds B' in my current list follows similar trends, or should I wait for the webinar on the 20th?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-013-1",
+      "q": "What is the new annual limit for tax-free growth accounts?",
+      "options": [
+        "$10,000",
+        "$12,000",
+        "$20,000",
+        "$45,000"
+      ],
+      "answer": 2,
+      "explanation": "文書1に'up to $20,000 annually'と記載されています。"
+    },
+    {
+      "id": "p7-013-2",
+      "q": "Which asset in Mr. Chen's portfolio had the highest growth this month?",
+      "options": [
+        "Global Tech Fund",
+        "Secure Bonds B",
+        "S&P 500 ETF",
+        "Cash Reserve"
+      ],
+      "answer": 0,
+      "explanation": "文書2の表の'Monthly Change'を見ると、Global Tech Fundが+5.2%で最大です。"
+    },
+    {
+      "id": "p7-013-3",
+      "q": "How much money does Mr. Chen want to move into the Global Tech Fund?",
+      "options": [
+        "$5,000",
+        "$10,000",
+        "$22,500",
+        "$50,000"
+      ],
+      "answer": 0,
+      "explanation": "文書3で'move half of my Cash Reserve'（現金の半分を移したい）とあり、表（文書2）でCash Reserveは$10,000なので、その半分の$5,000が正解です。"
+    }
+  ]
+}

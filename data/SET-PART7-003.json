@@ -1,0 +1,61 @@
+{
+  "id": "SET-PART7-003",
+  "title": "Business Relocation Notice",
+  "category": "Part 7",
+  "target_time_sec": 420,
+  "passages": [
+    "Document 1: Letter to Clients. Dear Valued Customer, We are excited to announce that 'Vertex Consulting' is moving to a new office! Effective July 1, our primary operations will shift to the Grand Plaza Building, Suite 405. Our phone numbers and email addresses remain unchanged. This larger space will allow us to expand our team and better serve your needs.",
+    "Document 2: Office Furniture Order #V-901. Date: June 12. Ship to: Vertex Consulting, 888 Oak Street (Current). Billing Address: 1200 Grand Plaza, Suite 405 (New). Items: 10 Ergonomic Chairs ($2,500), 5 Modular Desks ($1,500). Delivery Date requested: June 28. Special Instructions: Please deliver to the current location, as we will handle the move ourselves during the last weekend of June.",
+    "Document 3: Service Request from Vertex Consulting (July 3). To: City IT Solutions. Hello, we recently moved to the Grand Plaza Building. Our internet connection in Suite 405 is unstable. Also, we need assistance setting up the network for the 10 new workstations we just added. We need this resolved before our grand reopening on July 7."
+  ],
+  "questions": [
+    {
+      "id": "P7-003-1",
+      "q": "What is the main reason for Vertex Consulting's move?",
+      "options": [
+        "To reduce monthly rent",
+        "To be closer to their clients",
+        "To accommodate more staff",
+        "To update their phone systems"
+      ],
+      "answer": 2,
+      "explanation": "文書1にexpand our team（チームの拡大）とあるため(C)が正解。"
+    },
+    {
+      "id": "P7-003-2",
+      "q": "Where were the new chairs delivered?",
+      "options": [
+        "888 Oak Street",
+        "Grand Plaza, Suite 405",
+        "City IT Solutions",
+        "The cafeteria"
+      ],
+      "answer": 0,
+      "explanation": "文書2のShip to（配送先）が888 Oak Street（現在のオフィス）になっており、指示欄にもcurrent locationに届けるよう記載があるため(A)が正解。"
+    },
+    {
+      "id": "P7-003-3",
+      "q": "When does the company plan to officially reopen at the new location?",
+      "options": [
+        "June 12",
+        "June 28",
+        "July 1",
+        "July 7"
+      ],
+      "answer": 3,
+      "explanation": "文書3の末尾にgrand reopening on July 7とあるため(D)が正解。"
+    },
+    {
+      "id": "P7-003-4",
+      "q": "What is NOT mentioned as a problem in the service request?",
+      "options": [
+        "Unstable internet connection",
+        "Missing office chairs",
+        "Network setup for new desks",
+        "Urgent deadline for repairs"
+      ],
+      "answer": 1,
+      "explanation": "インターネットの不安定さ、ネットワーク設定、再開までの期限については文書3で言及されていますが、椅子の紛失については言及されていないため(B)が正解。"
+    }
+  ]
+}

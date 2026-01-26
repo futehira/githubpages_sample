@@ -1,0 +1,49 @@
+{
+  "id": "SET-PART7-008",
+  "title": "Apartment Maintenance Notice",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    "Document 1: Notice to Residents of 'Greenwood Towers'. Please be advised that the main water supply will be shut off for essential maintenance on Thursday, August 12, from 10:00 AM to 2:00 PM. This affects all units in Building A. We apologize for the inconvenience.",
+    "Document 2: Email from James Miller (Unit 402A). Date: August 10. To: Property Management. I saw the notice about the water shut-off. I work from home and have several video calls scheduled this Thursday. Is there any way to access the community lounge in Building B during those hours? I need a quiet space with reliable internet and, ideally, access to a restroom.",
+    "Document 3: Reply from Management (August 11). Dear Mr. Miller, residents of Building A are welcome to use the Building B lounge during the maintenance period. Your key card will be updated to grant you access temporarily. Please note that the lounge's Wi-Fi password is 'Greenwood2026'."
+  ],
+  "questions": [
+    {
+      "id": "P7-008-1",
+      "q": "How long will the water be unavailable?",
+      "options": [
+        "2 hours",
+        "4 hours",
+        "10 hours",
+        "12 hours"
+      ],
+      "answer": 1,
+      "explanation": "10:00 AMから2:00 PM（14:00）までなので、4時間です。"
+    },
+    {
+      "id": "P7-008-2",
+      "q": "Why does Mr. Miller need the lounge?",
+      "options": [
+        "He wants to use the gym.",
+        "His unit is under construction.",
+        "He needs to participate in online meetings.",
+        "He is moving to Building B."
+      ],
+      "answer": 2,
+      "explanation": "文書2でI have several video calls scheduled（ビデオ会議がいくつか予定されている）と述べています。"
+    },
+    {
+      "id": "P7-008-3",
+      "q": "What will the management do for Mr. Miller?",
+      "options": [
+        "Change the Wi-Fi password",
+        "Reschedule the maintenance",
+        "Enable his card for another building",
+        "Provide a portable water tank"
+      ],
+      "answer": 2,
+      "explanation": "文書3でYour key card will be updated to grant you access（鍵カードを更新してアクセス権を付与する）とあります。"
+    }
+  ]
+}

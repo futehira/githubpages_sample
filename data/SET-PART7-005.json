@@ -1,0 +1,61 @@
+{
+  "id": "SET-PART7-005",
+  "title": "Business Conference & Hotel Reservation",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    "Document 1: Tech-Forward Conference Schedule. Date: November 5. Venue: Skyline Convention Center. 09:00 - Keynote Speech (Hall A). 11:00 - AI in Finance Workshop (Room 202). 13:00 - Networking Lunch (Roof Garden). 15:00 - Future of Robotics (Hall B).",
+    "Document 2: Grand Vista Hotel - Booking Confirmation. Guest: David Chen. Check-in: November 4. Check-out: November 6. Room Type: Deluxe King. Rate: $180/night. Total: $360.00. Special Request: Late check-in (11:00 PM). Note: Our shuttle bus leaves for the Skyline Convention Center every 30 minutes starting at 8:00 AM.",
+    "Document 3: Message to David Chen from Sarah Miller (Colleague). Hi David, I heard you're attending the Tech-Forward event. I'm interested in the 11:00 AM session but I'll be arriving at the venue around noon. Could you take some notes for me during that time? Also, let's try to catch the last presentation of the day together. I'll meet you in front of Hall B at 2:50 PM."
+  ],
+  "questions": [
+    {
+      "id": "P7-005-1",
+      "q": "Where will the Networking Lunch be held?",
+      "options": [
+        "Hall A",
+        "Room 202",
+        "Roof Garden",
+        "Grand Vista Hotel"
+      ],
+      "answer": 2,
+      "explanation": "文書1のスケジュール表の13:00の欄にRoof Gardenと記載されています。"
+    },
+    {
+      "id": "P7-005-2",
+      "q": "How many nights is Mr. Chen staying at the hotel?",
+      "options": [
+        "One night",
+        "Two nights",
+        "Three nights",
+        "Four nights"
+      ],
+      "answer": 1,
+      "explanation": "文書2のチェックイン（11/4）とチェックアウト（11/6）から、2泊（$180×2=$360）であることがわかります。"
+    },
+    {
+      "id": "P7-005-3",
+      "q": "Which session does Sarah Miller want notes for?",
+      "options": [
+        "Keynote Speech",
+        "AI in Finance",
+        "Networking Lunch",
+        "Future of Robotics"
+      ],
+      "answer": 1,
+      "explanation": "文書3でSarahは「11:00 AMのセッションに興味があるが、会場に昼頃着く」と言っています。スケジュール（文書1）の11:00はAI in Financeです。"
+    },
+    {
+      "id": "P7-005-4",
+      "q": "What is NOT true about Mr. Chen's trip?",
+      "options": [
+        "He plans to arrive at the hotel late at night.",
+        "He has a meeting with Sarah Miller at 2:50 PM.",
+        "He can take a shuttle bus to the convention center.",
+        "He will be presenting at the Future of Robotics session."
+      ],
+      "answer": 3,
+      "explanation": "A, B, Cは文書2・3で言及されていますが、彼がプレゼン（発表）をするという記述はないため(D)が正解。"
+    }
+  ]
+}

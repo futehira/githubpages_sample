@@ -1,0 +1,79 @@
+{
+  "id": "SET-P7-015",
+  "title": "Cloud Service Plan Migration",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    {
+      "type": "text",
+      "content": "NexGen Cloud Solutions - Monthly Tiers\n- Basic: $50 (Up to 5 users, 100GB storage)\n- Professional: $120 (Up to 20 users, 500GB storage)\n- Enterprise: $300 (Unlimited users, 2TB storage)\n*Additional storage: $10 per 50GB.\n*Late payment fee: 5% of the total bill."
+    },
+    {
+      "type": "table",
+      "title": "Current Usage Report - Account #NX-880",
+      "header": [
+        "Month",
+        "Active Users",
+        "Storage Used",
+        "Current Plan"
+      ],
+      "rows": [
+        [
+          "November",
+          "4",
+          "90 GB",
+          "Basic"
+        ],
+        [
+          "December",
+          "6",
+          "110 GB",
+          "Basic"
+        ]
+      ],
+      "footer": "Note: December bill is overdue as of January 15."
+    },
+    {
+      "type": "text",
+      "content": "From: billing@nexgen.com\nTo: k.smith@startup.io\nDate: January 18\n\nRegarding your December usage, you exceeded the 'Basic' plan limits for both users and storage. We have not processed your payment yet. To avoid further overage charges, we recommend upgrading to 'Professional'. If you pay the December bill by January 20, we will waive the late fee. However, if you stay on the Basic plan for December, you must pay for the extra users ($15 per additional user) plus the standard storage overage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-015-1",
+      "q": "What is implied about the customer's December usage?",
+      "options": [
+        "They used less than 100GB of storage.",
+        "They had more active users than allowed by their plan.",
+        "They were already subscribed to the Professional plan.",
+        "They paid their bill on time in January."
+      ],
+      "answer": 1,
+      "explanation": "文書2の表を見ると12月のActive Usersは6人ですが、文書1のBasicプランの上限は5人です。文書3でも制限を超えた（exceeded limits）と言及されているため、(B)が正解です。"
+    },
+    {
+      "id": "p7-015-2",
+      "q": "If the customer pays on January 19 and decides to remain on the Basic plan, how much is the December bill (excluding late fees)?",
+      "options": [
+        "$65",
+        "$75",
+        "$85",
+        "$95"
+      ],
+      "answer": 1,
+      "explanation": "Basicプラン基本料金 $50。追加ユーザー1名分 $15。追加ストレージ（110GBなので100GBを超過。50GB単位で$10追加）$10。合計 $50 + $15 + $10 = $75 です。"
+    },
+    {
+      "id": "p7-015-3",
+      "q": "According to the email, what benefit is offered for paying by January 20?",
+      "options": [
+        "A 5% discount on the Professional plan",
+        "The removal of an additional charge for late payment",
+        "Unlimited storage for the month of January",
+        "A refund for previous overage charges"
+      ],
+      "answer": 1,
+      "explanation": "文書3に「waive the late fee（延滞料金を免除する）」とあります。文書1で延滞金は5%と定義されているため、(B)の「延滞による追加料金の削除」が正解です。"
+    }
+  ]
+}

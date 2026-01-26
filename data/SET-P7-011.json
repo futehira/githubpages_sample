@@ -1,0 +1,91 @@
+{
+  "id": "SET-P7-011",
+  "title": "Business Travel & Reimbursement",
+  "category": "Part 7",
+  "target_time_sec": 300,
+  "passages": [
+    {
+      "type": "text",
+      "content": "Travel Policy Update: All employees traveling for business must use the corporate booking tool. For airfare, economy class is the standard. Meals are reimbursed up to $50 per day. Receipts must be submitted within 10 days of returning from the trip."
+    },
+    {
+      "type": "table",
+      "title": "Expense Report: Travel to Singapore (Nov 12-14)",
+      "header": [
+        "Date",
+        "Description",
+        "Category",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Nov 12",
+          "Flight to Singapore",
+          "Transportation",
+          "$650.00"
+        ],
+        [
+          "Nov 12",
+          "Dinner with Client",
+          "Meals",
+          "$45.00"
+        ],
+        [
+          "Nov 13",
+          "Taxi to Conference",
+          "Transportation",
+          "$20.00"
+        ],
+        [
+          "Nov 13",
+          "Full Day Meals",
+          "Meals",
+          "$62.00"
+        ]
+      ],
+      "footer": "Employee: Linda Smith | Department: Marketing"
+    },
+    {
+      "type": "text",
+      "content": "To: Linda Smith\nFrom: Accounting Department\nDate: November 20\n\nDear Linda, we have reviewed your expense report for the Singapore trip. Everything looks correct except for the meals on November 13. According to our policy, the daily limit is $50. We can only reimburse you for that amount. The remaining $12 will not be covered. We will process the payment for the adjusted total today."
+    }
+  ],
+  "questions": [
+    {
+      "id": "p7-011-1",
+      "q": "What is the maximum daily meal allowance according to the policy?",
+      "options": [
+        "$10",
+        "$12",
+        "$45",
+        "$50"
+      ],
+      "answer": 3,
+      "explanation": "文書1に'Meals are reimbursed up to $50 per day'とあります。"
+    },
+    {
+      "id": "p7-011-2",
+      "q": "Why will Linda Smith NOT be fully reimbursed for November 13?",
+      "options": [
+        "She missed the 10-day deadline.",
+        "She did not use the corporate booking tool.",
+        "She spent more than the allowed daily limit.",
+        "She forgot to include a receipt for the taxi."
+      ],
+      "answer": 2,
+      "explanation": "文書3で、11月13日の食費が上限（$50）を超えている（$62）ため、超過分は支払われないと説明されています。"
+    },
+    {
+      "id": "p7-011-3",
+      "q": "When did Linda Smith return from her trip?",
+      "options": [
+        "November 10",
+        "November 14",
+        "November 20",
+        "November 24"
+      ],
+      "answer": 1,
+      "explanation": "文書2の表のタイトルに'Nov 12-14'とあるため、出張が終わったのは14日です。"
+    }
+  ]
+}

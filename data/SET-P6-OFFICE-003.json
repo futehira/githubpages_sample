@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-OFFICE-003",
+  "title": "Elevator Maintenance Notice",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Notice to All Tenants,\n\nPlease be advised that the main elevators in the West Wing will be undergoing scheduled maintenance on Saturday, March 15. The work is -------(131.) to take place between 8:00 AM and 5:00 PM. \n\nDuring this period, all three elevators will be out of service. -------(132.), tenants are encouraged to use the service elevator located near the loading dock or the stairs. \n\nWe apologize for any -------(133.) this may cause. We are performing these upgrades to ensure the continued safety and reliability of the building's facilities. -------(134.).\n\nThank you for your patience.",
+  "questions": [
+    {
+      "id": "p6-office-03-1",
+      "q": "No. 131",
+      "options": [
+        "resulted",
+        "intended",
+        "expected",
+        "measured"
+      ],
+      "answer": 2,
+      "explanation": "「〜することが予想・予定されている」という慣用表現 be expected to が正解です。"
+    },
+    {
+      "id": "p6-office-03-2",
+      "q": "No. 132",
+      "options": [
+        "For example",
+        "In contrast",
+        "As a result",
+        "However"
+      ],
+      "answer": 2,
+      "explanation": "エレベーターが止まるという原因に対し、「結果として（As a result）」別の手段を勧める流れになります。"
+    },
+    {
+      "id": "p6-office-03-3",
+      "q": "No. 133",
+      "options": [
+        "inconvenience",
+        "investment",
+        "information",
+        "instruction"
+      ],
+      "answer": 0,
+      "explanation": "工事による「不便」を謝罪する定型表現 (A) inconvenience が適切です。"
+    },
+    {
+      "id": "p6-office-03-4",
+      "q": "No. 134",
+      "options": [
+        "Please contact the management office for monthly parking rates.",
+        "New security cameras were installed last week.",
+        "Normal operation will resume on Sunday morning.",
+        "The cafeteria will be serving a special menu."
+      ],
+      "answer": 2,
+      "explanation": "メンテナンス終了後の「通常運行の再開」について述べている (C) が締めくくりとして最適です。"
+    }
+  ]
+}

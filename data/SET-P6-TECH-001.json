@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-TECH-001",
+  "title": "Cloud Migration Project",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: All Engineering Staff\nFrom: IT Director\nSubject: Migration to New Cloud Platform\n\nStarting next Monday, our department will begin the process of migrating all local server data to a new cloud-based infrastructure. This transition is expected to improve our data access speed and -------(131.) our overall workflow. \n\nPlease ensure that all current projects are backed up on the temporary drive before Friday afternoon. -------(132.), any files not stored in the designated area may be lost during the transfer. \n\nWe understand that this change may be -------(133.) at first. However, the new system will provide better support for our remote development teams. -------(134.). If you encounter any technical issues, please contact the help desk immediately.\n\nThank you for your cooperation.",
+  "questions": [
+    {
+      "id": "p6-tech-01-1",
+      "q": "No. 131",
+      "options": [
+        "simplify",
+        "simplification",
+        "simple",
+        "simply"
+      ],
+      "answer": 0,
+      "explanation": "助動詞 will の後の improve と並列になる動詞の原形が必要です。(A) simplify（簡素化する）が正解です。"
+    },
+    {
+      "id": "p6-tech-01-2",
+      "q": "No. 132",
+      "options": [
+        "Otherwise",
+        "Therefore",
+        "Similarly",
+        "Conversely"
+      ],
+      "answer": 0,
+      "explanation": "「バックアップしてください。さもなければ（Otherwise）〜」という条件・警告を繋ぐ接続詞が適切です。"
+    },
+    {
+      "id": "p6-tech-01-3",
+      "q": "No. 133",
+      "options": [
+        "convenient",
+        "challenging",
+        "stable",
+        "frequent"
+      ],
+      "answer": 1,
+      "explanation": "文脈から「最初は大変かもしれない（challenging）が、長期的にはメリットがある」という構成が自然です。"
+    },
+    {
+      "id": "p6-tech-01-4",
+      "q": "No. 134",
+      "options": [
+        "The server room will be renovated next month.",
+        "Detailed manuals for the new platform are attached to this email.",
+        "We are still looking for experienced cloud engineers.",
+        "The annual budget has been approved by the board."
+      ],
+      "answer": 1,
+      "explanation": "システム移行に関する案内なので、操作方法やマニュアルに関する補足文が最も適切です。"
+    }
+  ]
+}

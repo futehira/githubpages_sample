@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-RETAIL-006",
+  "title": "Response to Return Request",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "Dear Ms. Garcia,\n\nWe have received your request to return the damaged item from your recent order (#99821). We apologize for the -------(131.) you experienced when you opened the package. \n\nAccording to our records, the item was damaged during transit. -------(132.). We will send a replacement unit to your address today at no additional cost. \n\nPlease use the -------(133.) shipping label to return the defective product to our warehouse. You can drop it off at any authorized shipping center. -------(134.), your replacement order will be delivered within three business days. \n\nWe value your business and hope to serve you better in the future.",
+  "questions": [
+    {
+      "id": "p6-retail-06-1",
+      "q": "No. 131",
+      "options": [
+        "disappoint",
+        "disappointing",
+        "disappointment",
+        "disappointed"
+      ],
+      "answer": 2,
+      "explanation": "定冠詞 the の後の目的語として名詞が必要です。(C) disappointment（落胆・残念な思い）が正解です。"
+    },
+    {
+      "id": "p6-retail-06-2",
+      "q": "No. 132",
+      "options": [
+        "Your order has been canceled as requested.",
+        "Please accept our sincere apologies for this error.",
+        "The item you ordered is currently out of stock.",
+        "Our return policy lasts only for thirty days."
+      ],
+      "answer": 1,
+      "explanation": "不備があったことへの謝罪を述べる (B) が、前後の文脈（配送事故 → 代わりの品を送る）に最もフィットします。"
+    },
+    {
+      "id": "p6-retail-06-3",
+      "q": "No. 133",
+      "options": [
+        "enclose",
+        "enclosing",
+        "enclosed",
+        "enclosure"
+      ],
+      "answer": 2,
+      "explanation": "「同封された配送ラベル」という意味にするために、過去分詞で名詞を修飾する (C) enclosed が正解です。"
+    },
+    {
+      "id": "p6-retail-06-4",
+      "q": "No. 134",
+      "options": [
+        "Meanwhile",
+        "Therefore",
+        "Initially",
+        "Regularly"
+      ],
+      "answer": 0,
+      "explanation": "「（返品手続きを進めてもらう）一方で、代替品は3日以内に届く」という並行する状況を示す (A) Meanwhile が適切です。"
+    }
+  ]
+}

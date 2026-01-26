@@ -1,0 +1,49 @@
+{
+  "id": "SET-PART7-006",
+  "title": "Restaurant Review & Customer Service",
+  "category": "Part 7",
+  "target_time_sec": 360,
+  "passages": [
+    "Document 1: Blue Ocean Bistro - Anniversary Promotion. Join us in celebrating our 5th year! From June 1 to June 7, all parties of 4 or more will receive a 20% discount on their total bill. Note: Reservations are highly recommended. Our outdoor seating area is now open for the summer season.",
+    "Document 2: Online Review by Kevin Lee (June 3). Rating: 3/5 stars. I visited Blue Ocean Bistro with three friends yesterday to take advantage of the anniversary deal. The food was excellent, especially the grilled salmon. However, we were seated inside near the kitchen despite requesting a table on the terrace. Also, the discount wasn't applied initially, and I had to point it out to the manager.",
+    "Document 3: Response from the Manager (June 4). Dear Mr. Lee, thank you for your feedback. I apologize for the seating issue; a sudden rain shower at 6:00 PM forced us to move all terrace guests indoors, causing some confusion. Regarding the discount, I have spoken to our staff to ensure they check party sizes more carefully. On your next visit, please show this message for a free dessert."
+  ],
+  "questions": [
+    {
+      "id": "P7-006-1",
+      "q": "What is required to receive the anniversary discount?",
+      "options": [
+        "Visiting on a weekend",
+        "Ordering the grilled salmon",
+        "Having at least four people in a group",
+        "Making a reservation online"
+      ],
+      "answer": 2,
+      "explanation": "文書1にparties of 4 or more（4人以上のグループ）に割引を適用するとあります。"
+    },
+    {
+      "id": "P7-006-2",
+      "q": "Why was Mr. Lee NOT seated on the terrace?",
+      "options": [
+        "He did not make a reservation.",
+        "The terrace was closed for the season.",
+        "The weather conditions changed.",
+        "The restaurant was too crowded."
+      ],
+      "answer": 2,
+      "explanation": "文書3でマネージャーがa sudden rain shower（突然の雨）のために屋内へ移動させたと説明しています。"
+    },
+    {
+      "id": "P7-006-3",
+      "q": "What does the manager offer Mr. Lee for his next visit?",
+      "options": [
+        "A 20% discount",
+        "A complimentary dessert",
+        "Priority terrace seating",
+        "A refund for the salmon"
+      ],
+      "answer": 1,
+      "explanation": "文書3の末尾にshow this message for a free dessert（無料のデザート）とあります。"
+    }
+  ]
+}

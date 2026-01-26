@@ -1,0 +1,57 @@
+{
+  "id": "SET-P6-TECH-004",
+  "title": "Firmware Update for Smart-Link Hub",
+  "category": "Part 6",
+  "target_time_sec": 120,
+  "passage": "To: Registered Users\nFrom: Smart-Link Technical Support\nSubject: Critical Firmware Update Required\n\nDear Valued Customer,\n\nWe are writing to inform you that a new firmware update (v2.4) is now available for your Smart-Link Hub. This update is designed to improve the -------(131.) of your device with the latest wireless communication protocols. \n\n-------(132.), the update patches several minor security vulnerabilities discovered in the previous version. To ensure your system remains secure, please download and install the update as soon as possible. \n\nPlease note that your device -------(133.) to the internet throughout the entire installation process. -------(134.). Failure to follow these instructions may result in a system malfunction.\n\nBest regards,\n\nSmart-Link Support Team",
+  "questions": [
+    {
+      "id": "p6-tech-04-1",
+      "q": "No. 131",
+      "options": [
+        "compatible",
+        "compatibility",
+        "compatibly",
+        "compatibles"
+      ],
+      "answer": 1,
+      "explanation": "定冠詞 the と前置詞 of の間には名詞が必要です。(B) compatibility（互換性）が正解です。"
+    },
+    {
+      "id": "p6-tech-04-2",
+      "q": "No. 132",
+      "options": [
+        "In addition",
+        "Instead",
+        "Nevertheless",
+        "Otherwise"
+      ],
+      "answer": 0,
+      "explanation": "「プロトコルの改善」というメリットに加え、「セキュリティパッチ」という別のメリットを付け加えているため、(A) In addition（加えて）が適切です。"
+    },
+    {
+      "id": "p6-tech-04-3",
+      "q": "No. 133",
+      "options": [
+        "must be connected",
+        "will connect",
+        "is connecting",
+        "connected"
+      ],
+      "answer": 0,
+      "explanation": "インストール中の「義務・必要条件」を述べているため、助動詞を用いた受動態 (A) must be connected が正解です。"
+    },
+    {
+      "id": "p6-tech-04-4",
+      "q": "No. 134",
+      "options": [
+        "We are currently out of stock for this model.",
+        "Do not disconnect the power cable during the update.",
+        "Our headquarters will be relocated next month.",
+        "A refund will be issued to your credit card."
+      ],
+      "answer": 1,
+      "explanation": "直後の「指示に従わないと故障の原因になる」という警告に繋がる、具体的な禁止事項 (B) が最も自然です。"
+    }
+  ]
+}
